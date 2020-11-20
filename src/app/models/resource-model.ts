@@ -3,5 +3,5 @@ export interface Resource {
   description: string;
   url: string;
   date: string;
-  category: string;
+  categoryName: string;
 }

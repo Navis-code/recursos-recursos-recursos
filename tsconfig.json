@@ -12,7 +12,10 @@
     "importHelpers": true,
     "target": "es2015",
     "paths": {
-      "@models/*":["app/models/*"]
+      "@models/*":["app/models/*"],
+      "@components/*":["app/components/*"],
+      "@services/*":["app/services/*"],
+      "@resources/*":["resources/*"]
     },
     "module": "es2020",
     "lib": [
