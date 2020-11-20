@@ -17,7 +17,7 @@ export class ResourcesWidgetComponent implements OnInit {
     this.resources = this.resourceService.getResources();
     this.categoriesName = this.resourceService.getCategoriesName();
     console.log(
-      this.resourceService.getResourcesByCategory(this.categoriesName)
+      this.resourceService.getResourcesByCategories(this.categoriesName)
     );
   }
 }

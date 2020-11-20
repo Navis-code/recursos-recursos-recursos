@@ -1,3 +1,6 @@
 <div *ngFor="let categoryName of categoriesName">
-  <span>{{categoryName}}</span>
+  <a routerLink="/category/{{categoryName}}">{{categoryName}}</a>
+</div>
+<div>
+  <a routerLink="/">ALL</a>
 </div>

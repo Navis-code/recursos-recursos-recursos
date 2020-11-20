@@ -2,6 +2,7 @@ import { Category } from '@models/category-model';
 import { Resource } from '@models/resource-model';
 import { Injectable } from '@angular/core';
 import resourcesJSON from '@resources/all.json';
+import { Params } from '@angular/router';
 
 @Injectable({
   providedIn: 'root',
@@ -19,7 +20,7 @@ export class ResourceService {
     const categories = [...new Set(categoriesRaw)];
     return categories;
   }
-  getResourcesByCategory(categoriesName: string[]): Array<Category> {
+  getResourcesByCategories(categoriesName: string[]): Array<Category> {
     /* Create array with category and resources of that cateogry */
     const resourcesByCategory: Category[] = [];
     categoriesName.forEach((categoryName) => {
@@ -31,5 +32,8 @@ export class ResourceService {
       });
     });
     return resourcesByCategory;
+  }
+  getResourcesBySingleCategory({ categoryName }: Params): Array<Resource> {
+    return resourcesJSON.filter((x) => x.categoryName === categoryName);
   }
 }
