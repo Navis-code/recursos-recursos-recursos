@@ -14,6 +14,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { MatIconModule } from '@angular/material/icon';
     MatButtonToggleModule,
     MatToolbarModule,
     MatIconModule,
+    MatListModule,
   ],
   providers: [ResourceService],
   bootstrap: [AppComponent],
