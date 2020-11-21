@@ -12,6 +12,6 @@ export class NavbarMenuComponent implements OnInit {
   constructor(private resourceService: ResourceService) {}
 
   ngOnInit(): void {
-    this.categoriesName = this.resourceService.getCategoriesName();
+    this.categoriesName = this.resourceService.getCategoriesName().sort();
   }
 }

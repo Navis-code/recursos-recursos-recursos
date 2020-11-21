@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Resource } from '@models/resource-model';
 import { ResourceService } from '@services/resource.service';
+import { Category } from '@models/category-model';
 
 @Component({
   selector: 'app-resources-widget',
@@ -8,16 +8,29 @@ import { ResourceService } from '@services/resource.service';
   styleUrls: ['./resources-widget.component.scss'],
 })
 export class ResourcesWidgetComponent implements OnInit {
-  resources: Resource[];
-  categoriesName: string[];
+  categoriesWithResources: Category[];
 
   constructor(private resourceService: ResourceService) {}
 
   ngOnInit(): void {
-    this.resources = this.resourceService.getResources();
-    this.categoriesName = this.resourceService.getCategoriesName();
-    console.log(
-      this.resourceService.getResourcesByCategories(this.categoriesName)
+    const categoriesName: string[] = this.resourceService.getCategoriesName();
+    this.categoriesWithResources = this.resourceService.getResourcesByCategories(
+      categoriesName
     );
+    this.orderCategoriesAlphabetically();
+    this.orderResourcesByLastAdded();
+  }
+
+  orderCategoriesAlphabetically(): void {
+    this.categoriesWithResources.sort((a, b) =>
+      a.categoryName.localeCompare(b.categoryName)
+    );
+  }
+  orderResourcesByLastAdded(): void {
+    this.categoriesWithResources.forEach((category) => {
+      category.resources
+        .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
+        .reverse();
+    });
   }
 }
