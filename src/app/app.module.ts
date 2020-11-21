@@ -8,10 +8,31 @@ import { NavbarMenuComponent } from '@components/navbar-menu/navbar-menu.compone
 import { ResourcesWidgetComponent } from '@components/resources-widget/resources-widget.component';
 import { ResourcesCategoryComponent } from './components/resources-category/resources-category.component';
 import { NotFoundComponentComponent } from './components/not-found-component/not-found-component.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatButtonModule } from '@angular/material/button';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
-  declarations: [AppComponent, NavbarMenuComponent, ResourcesWidgetComponent, ResourcesCategoryComponent, NotFoundComponentComponent],
-  imports: [BrowserModule, AppRoutingModule],
+  declarations: [
+    AppComponent,
+    NavbarMenuComponent,
+    ResourcesWidgetComponent,
+    ResourcesCategoryComponent,
+    NotFoundComponentComponent,
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatSidenavModule,
+    MatButtonModule,
+    MatButtonToggleModule,
+    MatToolbarModule,
+    MatIconModule,
+  ],
   providers: [ResourceService],
   bootstrap: [AppComponent],
 })

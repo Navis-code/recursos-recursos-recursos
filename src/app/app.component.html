@@ -1,3 +1,18 @@
-<h1>RECURSOS, RECURSOS, RECURSOS</h1>
-<app-navbar-menu></app-navbar-menu>
-<router-outlet></router-outlet>
+<div class="example-container">
+  <mat-toolbar color="primary" class="example-toolbar">
+    <button mat-icon-button (click)="sidenav.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <h1 class="example-app-name">Recursos, recursos, recursos</h1>
+  </mat-toolbar>
+  <mat-sidenav-container class="example-sidenav-container">
+    <mat-sidenav #sidenav role="navigation">
+      <app-navbar-menu></app-navbar-menu>
+      <!-- <p><button mat-button (click)="close('toggle button')">Toggle</button></p> -->
+    </mat-sidenav>
+
+    <mat-sidenav-content role="main">
+      <router-outlet></router-outlet>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>
