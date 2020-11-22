@@ -1,9 +1,12 @@
-.example-card {
-  max-width: 400px;
-  border-radius: 10px;
+.card-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 0.5fr));
+  padding: 0 40px;
+  justify-content: center;
 }
-
-.example-header-image {
-  background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
-  background-size: cover;
+.resource-card {
+  border-radius: 10px;
 }
