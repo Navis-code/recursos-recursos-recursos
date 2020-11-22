@@ -8,13 +8,14 @@
   right: 0;
 }
 
-h1.example-app-name {
-  margin-left: 8px;
-}
-
-.example-sidenav-container {
+.sidenav-container {
   flex: 1;
 }
 mat-sidenav {
   width: 200px;
+}
+.main-nav-link {
+  text-transform: uppercase;
+  // TODO Incluir en styles genéricos
+  color: #303030;
 }

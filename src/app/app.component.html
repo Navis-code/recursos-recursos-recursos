@@ -3,12 +3,11 @@
     <button mat-icon-button (click)="sidenav.toggle()">
       <mat-icon>menu</mat-icon>
     </button>
-    <h1 class="example-app-name"><a routerLink="/">Recursos, recursos, recursos</a></h1>
+    <a routerLink="/" mat-button class="main-nav-link">Recursos, recursos, recursos</a>
   </mat-toolbar>
-  <mat-sidenav-container class="example-sidenav-container">
+  <mat-sidenav-container class="sidenav-container">
     <mat-sidenav #sidenav role="navigation">
       <app-navbar-menu></app-navbar-menu>
-      <!-- <p><button mat-button (click)="close('toggle button')">Toggle</button></p> -->
     </mat-sidenav>
 
     <mat-sidenav-content role="main">
