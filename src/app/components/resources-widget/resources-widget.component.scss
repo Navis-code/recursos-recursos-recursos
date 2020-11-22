@@ -1,0 +1,45 @@
+.card-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+  padding: 0 40px;
+
+  //resource-main
+  margin-top: 25px;
+}
+.card-cover {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 20px;
+  border: 2px solid #48f9ce;
+  border-radius: 20px;
+
+  //GRADIENT
+  background: rgb(73, 255, 211);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(73, 255, 211, 1) 0%,
+    rgba(51, 67, 70, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(73, 255, 211, 1) 0%,
+    rgba(51, 67, 70, 1) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(73, 255, 211, 1) 0%,
+    rgba(51, 67, 70, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#49ffd3",endColorstr="#334346",GradientType=1);
+
+  .category-title {
+    text-transform: uppercase;
+    font-size: 30px;
+    // TODO Incluir en styles genéricos
+    color: #424242;
+  }
+}

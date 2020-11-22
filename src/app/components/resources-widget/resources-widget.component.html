@@ -1,10 +1,10 @@
-<div *ngFor="let category of categoriesWithResources">
-  <h3>{{category.categoryName}}</h3>
-  <ul *ngFor="let resource of category.resources | slice:0:5">
-    <li>{{resource.name}}</li>
-    <li>{{resource.description}}</li>
-    <li>{{resource.url}}</li>
-    <li>{{resource.categoryName}}</li>
-    <li>{{resource.date}}</li>
-  </ul>
-</div>
+<ng-container *ngFor="let category of categoriesWithResources">
+  <div class="card-container">
+    <div class="card-cover">
+      <h2 class="category-title">{{category.categoryName}}</h2>
+    </div>
+    <ng-container *ngFor="let resource of category.resources | slice:0:5">
+      <app-resource-template [resource]="resource"></app-resource-template>
+    </ng-container>
+  </div>
+</ng-container>
