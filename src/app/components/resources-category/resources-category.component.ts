@@ -9,6 +9,7 @@ import { ResourceService } from '@services/resource.service';
   styleUrls: ['./resources-category.component.scss'],
 })
 export class ResourcesCategoryComponent implements OnInit {
+  category: string;
   resourcesInCategory: Resource[];
 
   constructor(
@@ -21,6 +22,7 @@ export class ResourcesCategoryComponent implements OnInit {
       this.resourcesInCategory = this.resourceService.getResourcesBySingleCategory(
         params
       );
+      this.category = params.categoryName;
     });
   }
 }

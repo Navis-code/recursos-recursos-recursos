@@ -1,9 +1,20 @@
+<h2>{{category}}</h2>
 <div *ngFor="let resource of resourcesInCategory">
-  <div>
-    <span>{{resource.name}}</span>
-    <span>{{resource.description}}</span>
-    <span>{{resource.url}}</span>
-    <span>{{resource.categoryName}}</span>
-    <span>{{resource.date}}</span>
-  </div>
+  <mat-card class="example-card">
+    <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+    <mat-card-header>
+      <!-- <div mat-card-avatar class="example-header-image"></div> -->
+      <mat-card-title>{{resource.name}}</mat-card-title>
+      <mat-card-subtitle>{{resource.categoryName}}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <p>
+        {{resource.description}}
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <a mat-raised-button color="primary" href="{{resource.url}}">Ir al recurso</a>
+      <!-- <button mat-button>SHARE</button> -->
+    </mat-card-actions>
+  </mat-card>
 </div>
