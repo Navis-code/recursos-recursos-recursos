@@ -24,7 +24,11 @@
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": ["src/favicon.ico", "src/assets"],
-            "styles": ["src/my-theme.scss", "src/styles.scss"],
+            "styles": [
+              "src/my-theme.scss",
+              "./node_modules/swiper/swiper-bundle.css",
+              "src/styles.scss"
+            ],
             "scripts": []
           },
           "configurations": {
@@ -82,7 +86,11 @@
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
             "assets": ["src/favicon.ico", "src/assets"],
-            "styles": ["src/my-theme.scss", "src/styles.scss"],
+            "styles": [
+              "src/my-theme.scss",
+              "./node_modules/swiper/swiper-bundle.css",
+              "src/styles.scss"
+            ],
             "scripts": []
           }
         },
