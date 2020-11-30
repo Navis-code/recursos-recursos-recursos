@@ -1,12 +1,21 @@
 .card-container {
+  // max-width: 1200px;
+  // margin: 0 auto;
+  // display: grid;
+  // grid-gap: 1rem;
+  // grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+  // padding: 0 40px;
+
+  // //resource-main
+  // margin-top: 25px;
+  // min-height: 500px;
+
+  // DESDE CERO
   max-width: 1200px;
   margin: 0 auto;
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
   padding: 0 40px;
-
-  //resource-main
+  display: flex;
+  flex-direction: column;
   margin-top: 25px;
 }
 .card-cover {
@@ -41,5 +50,15 @@
     font-size: 30px;
     // TODO Incluir en styles genéricos
     color: #424242;
+  }
+}
+
+//SWIPER
+swiper {
+  .swiper-wrapper {
+    padding-bottom: 25px;
+  }
+  .swiper-pagination {
+    bottom: 0;
   }
 }
