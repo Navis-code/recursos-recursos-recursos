@@ -1,6 +1,13 @@
 .resource-card {
   border: 2px solid #1de9b6;
   border-radius: 10px;
+  transition: 0.2s;
+  // HOVER
+  &:hover {
+    transform: translateY(-1rem);
+    box-shadow: 0rem 9px 2rem 4px #151515;
+  }
+
   .image-card-container {
     border-radius: 10px;
     margin: -16px -16px 16px -16px;

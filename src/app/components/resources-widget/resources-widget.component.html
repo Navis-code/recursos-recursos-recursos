@@ -4,18 +4,12 @@
       <h2 class="category-title">{{category.categoryName}}</h2>
     </div>
     <div class="swiper-box">
-      <!-- <swiper [config]="config">
-        <ng-container *ngFor="let resource of category.resources | slice:0:5">
-          <app-resource-template [resource]="resource"></app-resource-template>
-        </ng-container>
-      </swiper> -->
       <swiper [config]="config">
         <div class="swiper-wrapper">
           <div class="swiper-slide" *ngFor="let resource of category.resources | slice:0:5">
             <app-resource-template [resource]="resource"></app-resource-template>
           </div>
         </div>
-        <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
       </swiper>
     </div>

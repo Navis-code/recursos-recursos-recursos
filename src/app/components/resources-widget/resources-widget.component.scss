@@ -38,7 +38,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#49ffd3",endColorstr="#334346",GradientType=1);
   @media (min-width: 768px) {
     min-width: 250px;
-    margin-bottom: 25px;
+    margin: 25px 0px;
   }
   .category-title {
     text-transform: uppercase;
@@ -51,7 +51,7 @@
 //SWIPER
 swiper {
   .swiper-wrapper {
-    padding-bottom: 25px;
+    padding: 25px 0px;
     margin-top: 5px;
     @media (min-width: 768px) {
       margin-top: initial;
