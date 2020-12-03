@@ -13,23 +13,19 @@ export class ResourcesWidgetComponent implements OnInit {
 
   config: SwiperOptions = {
     pagination: { el: '.swiper-pagination', clickable: true },
-    autoHeight: true,
     allowTouchMove: true,
     breakpoints: {
       1024: {
-        slidesPerView: 4,
-      },
-      500: {
         slidesPerView: 3,
       },
-      400: {
+      500: {
         slidesPerView: 2,
       },
       300: {
         slidesPerView: 1,
       },
     },
-    // loop: true,
+    spaceBetween: 5,
   };
 
   constructor(private resourceService: ResourceService) {}

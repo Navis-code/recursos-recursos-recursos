@@ -1,3 +1,22 @@
 .resource-card {
+  border: 2px solid #1de9b6;
   border-radius: 10px;
+  .image-card-container {
+    border-radius: 10px;
+    margin: -16px -16px 16px -16px;
+    height: 200px;
+
+    img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+      margin: 0;
+    }
+  }
+  mat-card-title,
+  .card-content {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
 }

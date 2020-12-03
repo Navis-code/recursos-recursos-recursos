@@ -1,11 +1,15 @@
 <mat-card class="resource-card">
-  <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+  <div class="image-card-container">
+    <img mat-card-image
+      src="https://images.unsplash.com/photo-1606942790567-5783bab8d944?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+      alt="Photo of a Shiba Inu">
+  </div>
   <div>
     <mat-card-title>{{resource.name}}</mat-card-title>
     <mat-card-subtitle>{{resource.categoryName}}</mat-card-subtitle>
   </div>
   <mat-card-content>
-    <p>
+    <p class="card-content">
       {{resource.description}}
     </p>
   </mat-card-content>
