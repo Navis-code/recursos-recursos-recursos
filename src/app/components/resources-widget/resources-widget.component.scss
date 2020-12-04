@@ -17,6 +17,14 @@
   padding: 20px;
   border: 2px solid #48f9ce;
   border-radius: 20px;
+  cursor: pointer;
+
+  //HOVER
+  &:hover {
+    .category-title {
+      color: #c8fff2;
+    }
+  }
 
   //GRADIENT
   background: rgb(73, 255, 211);
@@ -43,8 +51,10 @@
   .category-title {
     text-transform: uppercase;
     font-size: 30px;
+    text-decoration: none;
     // TODO Incluir en styles genéricos
     color: #424242;
+    transition: 0.5s;
   }
 }
 

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ResourceService } from '@services/resource.service';
 import { Category } from '@models/category-model';
 import { SwiperOptions } from 'swiper';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-resources-widget',
@@ -28,7 +29,10 @@ export class ResourcesWidgetComponent implements OnInit {
     spaceBetween: 5,
   };
 
-  constructor(private resourceService: ResourceService) {}
+  constructor(
+    private resourceService: ResourceService,
+    public router: Router
+  ) {}
 
   ngOnInit(): void {
     const categoriesName: string[] = this.resourceService.getCategoriesName();
@@ -50,5 +54,8 @@ export class ResourcesWidgetComponent implements OnInit {
         .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
         .reverse();
     });
+  }
+  click(category: string): void {
+    this.router.navigate([`category/${category}`]);
   }
 }
