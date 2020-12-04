@@ -12,3 +12,18 @@ body {
 .swiper-pagination-bullet-active {
   background: #1de9b6;
 }
+
+//SCROLLBAR
+body::-webkit-scrollbar {
+  width: 3px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background: #303030;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #1de9b6;
+  outline: 1px solid slategrey;
+}
