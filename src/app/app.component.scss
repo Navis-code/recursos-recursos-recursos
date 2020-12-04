@@ -1,5 +1,16 @@
+$height-toolbar: 65px;
+mat-toolbar {
+  height: $height-toolbar;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+}
 .sidenav-container {
   flex: 1;
+  min-height: 100%;
+  margin-top: $height-toolbar;
+  padding-bottom: $height-toolbar;
 }
 mat-sidenav {
   width: 200px;
