@@ -8,4 +8,5 @@ import { Resource } from '@models/resource-model';
 })
 export class ResourceTemplateComponent {
   @Input() resource: Resource;
+  imgPath = '../../../assets/screenshots/';
 }

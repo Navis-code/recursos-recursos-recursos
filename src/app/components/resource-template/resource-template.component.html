@@ -1,8 +1,6 @@
 <mat-card class="resource-card">
   <div class="image-card-container">
-    <img mat-card-image
-      src="https://images.unsplash.com/photo-1606942790567-5783bab8d944?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
-      alt="Photo of a Shiba Inu">
+    <img mat-card-image src="{{imgPath + resource.name}}.png" alt="Photo of a Shiba Inu">
   </div>
   <div>
     <mat-card-title>{{resource.name}}</mat-card-title>
@@ -14,6 +12,6 @@
     </p>
   </mat-card-content>
   <div>
-    <a mat-raised-button color="primary" href="{{resource.url}}">Ir al recurso</a>
+    <a mat-raised-button color="primary" href="{{resource.url}}" target="_blank">Ir al recurso</a>
   </div>
 </mat-card>
