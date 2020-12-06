@@ -1,6 +1,7 @@
 <mat-card class="resource-card">
   <div class="image-card-container">
-    <img mat-card-image src="{{imgPath + resource.name}}.png" alt="Photo of a Shiba Inu">
+    <img mat-card-image src="/assets/screenshots/{{resource.name}}.png" alt="Photo of resource {{resource.name}}"
+      (error)="onImgError($event)">
   </div>
   <div>
     <mat-card-title>{{resource.name}}</mat-card-title>

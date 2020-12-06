@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Resource } from '@models/resource-model';
 
 @Component({
@@ -8,5 +8,8 @@ import { Resource } from '@models/resource-model';
 })
 export class ResourceTemplateComponent {
   @Input() resource: Resource;
-  imgPath = '../../../assets/screenshots/';
+
+  onImgError(event: { target: HTMLImageElement }): void {
+    event.target.src = '/assets/default/default.jpg';
+  }
 }
