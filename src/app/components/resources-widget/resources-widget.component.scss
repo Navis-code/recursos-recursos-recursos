@@ -13,7 +13,7 @@
 .card-cover {
   display: flex;
   align-items: flex-end;
-  justify-content: flex-end;
+  justify-content: center;
   padding: 20px;
   border: 2px solid #48f9ce;
   border-radius: 20px;
@@ -45,6 +45,7 @@
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#49ffd3",endColorstr="#334346",GradientType=1);
   @media (min-width: 768px) {
+    justify-content: flex-end;
     min-width: 250px;
     margin: 25px 0px;
   }
