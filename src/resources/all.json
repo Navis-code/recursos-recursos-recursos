@@ -1,24 +1,101 @@
 [
   {
-    "name": "Wikipedia",
-    "description": "Basic icons for product design",
-    "url": "https://es.wikipedia.org/",
-    "date": "19/11/2020",
-    "categoryName": "Icons"
+    "name": "Keyframes",
+    "description": "Crea y edita animaciones viendo resultado en vivo",
+    "url": "https://keyframes.app/animate/",
+    "date": "11/12/2020",
+    "categoryName": "Animaciones"
   },
   {
-    "name": "StackOverflow",
-    "description": "Loremipsum dolor est asdf 123ñlasdf asdf asdf aowerjasdf ",
-    "url": "https://stackoverflow.com/",
-    "date": "20/11/2020",
-    "categoryName": "Icons"
+    "name": "Animista",
+    "description": "Pequeñas animaciones con css, previsualización y copiar código",
+    "url": "https://animista.net/play",
+    "date": "11/12/2020",
+    "categoryName": "Animaciones"
   },
   {
-    "name": "Navis Code",
-    "description": "Basic icons for product design",
-    "url": "https://naviscode.com/",
-    "date": "21/11/2020",
-    "categoryName": "Colors"
+    "name": "Desire M Carmona",
+    "description": "Diseño, UX/UI, desarrollo y más...",
+    "url": "https://desiremcarmona.com/",
+    "date": "11/12/2020",
+    "categoryName": "Blog"
+  },
+  {
+    "name": "Basicons",
+    "description": "Iconos en formato SVG",
+    "url": "https://basicons.xyz/",
+    "date": "11/12/2020",
+    "categoryName": "Iconos"
+  },
+  {
+    "name": "Heroicons",
+    "description": "En formato SVG click y copiar, iconos de alta calidad",
+    "url": "https://heroicons.dev/",
+    "date": "11/12/2020",
+    "categoryName": "Iconos"
+  },
+  {
+    "name": "Simple Icons",
+    "description": "Iconos de marcas populares +1000",
+    "url": "https://simpleicons.org/",
+    "date": "11/12/2020",
+    "categoryName": "Iconos"
+  },
+  {
+    "name": "Tabler Icons",
+    "description": "SVG totalmente personalizables",
+    "url": "https://tablericons.com/",
+    "date": "11/12/2020",
+    "categoryName": "Iconos"
+  },
+  {
+    "name": "Radix Icons",
+    "description": "En tamaño 15x15 de alta calidad",
+    "url": "https://icons.modulz.app/",
+    "date": "11/12/2020",
+    "categoryName": "Iconos"
+  },
+  {
+    "name": "IcoMoon",
+    "description": "Crea tu librería de iconos en svg",
+    "url": "https://icomoon.io/app/",
+    "date": "11/12/2020",
+    "categoryName": "Iconos"
+  },
+  {
+    "name": "Eva Icons",
+    "description": "En svg o png, Open Source",
+    "url": "https://akveo.github.io/eva-icons/",
+    "date": "11/12/2020",
+    "categoryName": "Iconos"
+  },
+  {
+    "name": "1loc",
+    "description": "Utilidades de JavaScript en 1 linea de codigo",
+    "url": "https://1loc.dev/",
+    "date": "11/12/2020",
+    "categoryName": "JavaScript"
+  },
+  {
+    "name": "CSS Grid Generator",
+    "description": "Generador de codigo para css grid",
+    "url": "https://cssgrid-generator.netlify.app/",
+    "date": "11/12/2020",
+    "categoryName": "Layout"
+  },
+  {
+    "name": "Flexbox Zombies",
+    "description": "Aprende flexbox jugando con zombies",
+    "url": "https://flexboxzombies.com/p/flexbox-zombies",
+    "date": "11/12/2020",
+    "categoryName": "Layout"
+  },
+  {
+    "name": "Navis Code Youtube",
+    "description": "Desarrollo web enfocado sobre todo a front",
+    "url": "https://www.youtube.com/channel/UC9tcfsScui3S70hp_wC_EPw",
+    "date": "11/12/2020",
+    "categoryName": "Youtube"
   },
   {
     "name": "As",
@@ -42,34 +119,6 @@
     "categoryName": "Misc"
   },
   {
-    "name": "Imagemin",
-    "description": "Basic icons for product design",
-    "url": "https://www.npmjs.com/package/imagemin",
-    "date": "21/11/2020",
-    "categoryName": "Test"
-  },
-  {
-    "name": "Puppeteer Tutorial",
-    "description": "Basic icons for product design",
-    "url": "https://dev.to/rajnavadiya786/how-to-capture-website-screenshots-using-node-js-and-puppeteer-35i9",
-    "date": "21/11/2020",
-    "categoryName": "Test"
-  },
-  {
-    "name": "test3",
-    "description": "Basic icons for product design",
-    "url": "https://test2.xyz",
-    "date": "25/11/2020",
-    "categoryName": "Test"
-  },
-  {
-    "name": "CSS Grid Generator",
-    "description": "Basic icons for product design",
-    "url": "https://cssgrid-generator.netlify.app/",
-    "date": "23/11/2020",
-    "categoryName": "Colors"
-  },
-  {
     "name": "Jest",
     "description": "Basic icons for product design",
     "url": "https://jestjs.io/",
@@ -81,13 +130,6 @@
     "description": "Basic icons for product design",
     "url": "https://bennettfeely.com/clippy/",
     "date": "23/11/2020",
-    "categoryName": "Colors"
-  },
-  {
-    "name": "Flexbox Zombies",
-    "description": "Basic icons for product design",
-    "url": "https://flexboxzombies.com/p/flexbox-zombies",
-    "date": "24/11/2020",
     "categoryName": "Colors"
   }
 ]
