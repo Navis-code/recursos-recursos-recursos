@@ -6,8 +6,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ResourcesWidgetComponent } from '@components/resources-widget/resources-widget.component';
 import { NavbarMenuComponent } from '@components/navbar-menu/navbar-menu.component';
+import { NotFoundComponentComponent } from '@components/common/not-found-component/not-found-component.component';
 import { ResourcesCategoryComponent } from './components/resources-category/resources-category.component';
-import { NotFoundComponentComponent } from './components/not-found-component/not-found-component.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatButtonModule } from '@angular/material/button';
@@ -17,7 +17,6 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
 import { ResourceTemplateComponent } from './components/resource-template/resource-template.component';
-// ? SWIPPER
 import { NgxUsefulSwiperModule } from 'ngx-useful-swiper';
 
 @NgModule({

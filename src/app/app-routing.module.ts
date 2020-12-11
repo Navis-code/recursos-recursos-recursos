@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { NotFoundComponentComponent } from '@components/not-found-component/not-found-component.component';
+import { NotFoundComponentComponent } from '@components/common/not-found-component/not-found-component.component';
 import { ResourcesCategoryComponent } from '@components/resources-category/resources-category.component';
 import { ResourcesWidgetComponent } from '@components/resources-widget/resources-widget.component';
 
