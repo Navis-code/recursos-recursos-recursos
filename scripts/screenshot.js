@@ -3,7 +3,7 @@ const puppeteer = require("puppeteer");
 
 const imagemin = require("imagemin");
 const imageminWebp = require("imagemin-webp");
-const { statSync, readdirSync, unlink, existsSync } = require("fs");
+const { statSync, readdirSync, unlink, existsSync, mkdirSync } = require("fs");
 const { join } = require("path");
 
 const FOLDER_PATH = "/src/assets/screenshots";
