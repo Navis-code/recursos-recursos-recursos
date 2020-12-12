@@ -2,8 +2,8 @@ const resourcesJSON = require("../src/resources/all.json");
 const puppeteer = require("puppeteer");
 
 const imagemin = require("imagemin");
-const imageminPngquant = require("imagemin-pngquant");
-const { statSync, mkdirSync } = require("fs");
+const imageminWebp = require("imagemin-webp");
+const { statSync, readdirSync, unlink, existsSync } = require("fs");
 const { join } = require("path");
 
 const FOLDER_PATH = "/src/assets/screenshots";
@@ -11,7 +11,8 @@ const FOLDER_PATH = "/src/assets/screenshots";
 ## Comprueba directorio si existe según FOLDER_PATH
 ## Si no está lo crea con mkdir
 ## Irá ejecutando screenshots correspondiente si no da ningún error (revisar url de JSON)
-## Realizará la compresión de las imagenes
+## Realizará la compresión de las imagenes y transforma a .webp
+## Borrado de archivos .png
 ## Finalizará el proceso
 */
 
@@ -20,8 +21,8 @@ const compressImg = async () => {
   const files = await imagemin(["." + FOLDER_PATH + "/*.{jpg,png}"], {
     destination: "." + FOLDER_PATH,
     plugins: [
-      imageminPngquant({
-        quality: [0.6, 0.8],
+      imageminWebp({
+        quality: 50,
       }),
     ],
   });
@@ -65,6 +66,7 @@ async function makeScreenshots(resources) {
   }
   // RESIZE IMG
   await compressImg(screenshotsFolder);
+  removePngFiles(screenshotsFolder);
   process.exit();
 }
 
@@ -85,6 +87,21 @@ async function folderExists(folder) {
     if (err.code === "ENOENT") return false;
     throw err;
   }
+}
+
+function removePngFiles(screenshotsFolder) {
+  console.log("Deleting unused assets...");
+  const files = readdirSync(screenshotsFolder);
+  const filesFiltered = files.filter((file) =>
+    file.match(new RegExp(`.*\.png`, "ig"))
+  );
+  filesFiltered.forEach((file) => {
+    if (existsSync(`${screenshotsFolder}/${file}`)) {
+      unlink(`${screenshotsFolder}/${file}`, () => {});
+    } else {
+      console.log("File doesn't exist");
+    }
+  });
 }
 
 makeScreenshots(resourcesJSON);
