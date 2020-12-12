@@ -1,5 +1,19 @@
 [
   {
+    "name": "Accesibility Cheatsheet",
+    "description": "Recomendaciones de accesibilidad para todos",
+    "url": "https://moritzgiessmann.de/accessibility-cheatsheet/",
+    "date": "12/12/2020",
+    "categoryName": "Accesibilidad"
+  },
+  {
+    "name": "Better Mobile Input",
+    "description": "Diferentes tipos de input para mobile",
+    "url": "https://better-mobile-inputs.netlify.app/",
+    "date": "12/12/2020",
+    "categoryName": "Accesibilidad"
+  },
+  {
     "name": "Keyframes",
     "description": "Crea y edita animaciones viendo resultado en vivo",
     "url": "https://keyframes.app/animate/",
@@ -19,6 +33,62 @@
     "url": "https://desiremcarmona.com/",
     "date": "11/12/2020",
     "categoryName": "Blog"
+  },
+  {
+    "name": "Accessible Brand Colors",
+    "description": "Encuentra colores accesibles y comparalos",
+    "url": "https://abc.useallfive.com/",
+    "date": "12/12/2020",
+    "categoryName": "Colores"
+  },
+  {
+    "name": "Color Namer",
+    "description": "Nombre para variables de colores según selección",
+    "url": "https://colornamer.netlify.app/",
+    "date": "12/12/2020",
+    "categoryName": "Colores"
+  },
+  {
+    "name": "Color Space",
+    "description": "Generador de paletas de colores introduciendo 1",
+    "url": "https://mycolor.space/",
+    "date": "12/12/2020",
+    "categoryName": "Colores"
+  },
+  {
+    "name": "CSS Gradient",
+    "description": "Generador de degradados de forma visual",
+    "url": "https://cssgradient.io/",
+    "date": "12/12/2020",
+    "categoryName": "Colores"
+  },
+  {
+    "name": "Font Flipper",
+    "description": "Visualiza fuentes de google en tus diseños",
+    "url": "https://fontflipper.com/",
+    "date": "12/12/2020",
+    "categoryName": "Fuentes"
+  },
+  {
+    "name": "Google font to SVG path",
+    "description": "Genera SVG path desde una fuente de google",
+    "url": "https://danmarshall.github.io/google-font-to-svg-path/",
+    "date": "12/12/2020",
+    "categoryName": "Fuentes"
+  },
+  {
+    "name": "Gitignore",
+    "description": "Crea gitignore para tu proyecto",
+    "url": "https://www.toptal.com/developers/gitignore",
+    "date": "12/12/2020",
+    "categoryName": "Git"
+  },
+  {
+    "name": "Gitexplorer",
+    "description": "Encuentra los comandos de git de forma simple",
+    "url": "https://gitexplorer.com/",
+    "date": "12/12/2020",
+    "categoryName": "Git"
   },
   {
     "name": "Basicons",
@@ -56,18 +126,39 @@
     "categoryName": "Iconos"
   },
   {
-    "name": "IcoMoon",
-    "description": "Crea tu librería de iconos en svg",
-    "url": "https://icomoon.io/app/",
-    "date": "11/12/2020",
-    "categoryName": "Iconos"
-  },
-  {
     "name": "Eva Icons",
     "description": "En svg o png, Open Source",
     "url": "https://akveo.github.io/eva-icons/",
     "date": "11/12/2020",
     "categoryName": "Iconos"
+  },
+  {
+    "name": "Real Favicon Generator",
+    "description": "Generador de favicon para todas las plataformas",
+    "url": "https://realfavicongenerator.net/",
+    "date": "12/12/2020",
+    "categoryName": "Iconos"
+  },
+  {
+    "name": "Unsplash",
+    "description": "Imagenes de alta calidad multiples categorías",
+    "url": "https://unsplash.com/",
+    "date": "12/12/2020",
+    "categoryName": "Imagenes"
+  },
+  {
+    "name": "Freepik",
+    "description": "Vectores e imagenes de alta calidad y variedad",
+    "url": "https://www.freepik.com/",
+    "date": "12/12/2020",
+    "categoryName": "Imagenes"
+  },
+  {
+    "name": "Placeholder",
+    "description": "Placeholder de imagenes, por tamaño, formato...",
+    "url": "https://placeholder.com/",
+    "date": "12/12/2020",
+    "categoryName": "Imagenes"
   },
   {
     "name": "1loc",
@@ -91,45 +182,66 @@
     "categoryName": "Layout"
   },
   {
+    "name": "Grid Garden",
+    "description": "Aprende Css Grid jugando a cultivar un jardín",
+    "url": "http://cssgridgarden.com/",
+    "date": "12/12/2020",
+    "categoryName": "Layout"
+  },
+  {
+    "name": "iHateRegex",
+    "description": "Expresiones regulares que se usan comunmente",
+    "url": "https://ihateregex.io/",
+    "date": "12/12/2020",
+    "categoryName": "Regex"
+  },
+  {
+    "name": "Regexr",
+    "description": "Crea y comprueba expresiones regulares",
+    "url": "https://regexr.com/",
+    "date": "12/12/2020",
+    "categoryName": "Regex"
+  },
+  {
+    "name": "Warp SVG",
+    "description": "Deforma y modifica SVG",
+    "url": "https://pavellaptev.github.io/warp-svg/",
+    "date": "12/12/2020",
+    "categoryName": "SVG"
+  },
+  {
+    "name": "SVG Path Editor",
+    "description": "Edita de forma visual path de SVG",
+    "url": "https://yqnn.github.io/svg-path-editor/",
+    "date": "12/12/2020",
+    "categoryName": "SVG"
+  },
+  {
+    "name": "SVG Path Visualizer",
+    "description": "Descubre comandos para svg path",
+    "url": "https://svg-path-visualizer.netlify.app/",
+    "date": "12/12/2020",
+    "categoryName": "SVG"
+  },
+  {
+    "name": "Svg Wave",
+    "description": "Generador de svg waves",
+    "url": "https://svgwave.in/",
+    "date": "12/12/2020",
+    "categoryName": "SVG"
+  },
+  {
+    "name": "Svg Backgrounds",
+    "description": "Modifica y crea fondos rápidos con svg",
+    "url": "https://www.svgbackgrounds.com/",
+    "date": "12/12/2020",
+    "categoryName": "SVG"
+  },
+  {
     "name": "Navis Code Youtube",
     "description": "Desarrollo web enfocado sobre todo a front",
     "url": "https://www.youtube.com/channel/UC9tcfsScui3S70hp_wC_EPw",
     "date": "11/12/2020",
     "categoryName": "Youtube"
-  },
-  {
-    "name": "As",
-    "description": "Basic icons for product design",
-    "url": "https://as.com/",
-    "date": "21/11/2020",
-    "categoryName": "Colors"
-  },
-  {
-    "name": "Imagemin Overwrite",
-    "description": "Basic icons for product design",
-    "url": "https://www.npmjs.com/package/imagemin-overwrite",
-    "date": "21/11/2020",
-    "categoryName": "Colors"
-  },
-  {
-    "name": "Lorem Ipsum Dolor",
-    "description": "Basic icons for product design",
-    "url": "https://es.lipsum.com/",
-    "date": "21/11/2020",
-    "categoryName": "Misc"
-  },
-  {
-    "name": "Jest",
-    "description": "Basic icons for product design",
-    "url": "https://jestjs.io/",
-    "date": "23/11/2020",
-    "categoryName": "Colors"
-  },
-  {
-    "name": "CSS clip-Path Maker",
-    "description": "Basic icons for product design",
-    "url": "https://bennettfeely.com/clippy/",
-    "date": "23/11/2020",
-    "categoryName": "Colors"
   }
 ]
