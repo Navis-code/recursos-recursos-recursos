@@ -91,13 +91,6 @@
     "categoryName": "Colores"
   },
   {
-    "name": "Introducción a GraphQL desde las bases hasta crear APIs",
-    "description": "Primeros pasos con GraphQL: Lenguaje de manipulación y consulta de datos Open Source para API. Desarrollado por Facebook",
-    "url": "https://www.udemy.com/course/introduccion-a-graphql-desde-las-bases-hasta-crear-apis/",
-    "date": "13/12/2020",
-    "categoryName": "Cursos Online"
-  },
-  {
     "name": "Font Flipper",
     "description": "Visualiza fuentes de google en tus diseños",
     "url": "https://fontflipper.com/",
@@ -287,19 +280,33 @@
     "categoryName": "Twitch"
   },
   {
+    "name": "Introducción a GraphQL",
+    "description": "Primeros pasos con GraphQL",
+    "url": "https://www.udemy.com/course/introduccion-a-graphql-desde-las-bases-hasta-crear-apis/",
+    "date": "13/12/2020",
+    "categoryName": "Udemy"
+  },
+  {
+    "name": "Compodoc,crea documentación",
+    "description": "Para proyectos de Angular 2+ / Ionic 2+ / Typescript",
+    "url": "https://www.udemy.com/course/compodoc-crea-documentacion-en-angular-ionic/",
+    "date": "13/12/2020",
+    "categoryName": "Udemy"
+  },
+  {
     "name": "Navis Code Youtube",
-    "description": "Aprende a programar aquí con diferentes lenguajes",
+    "description": "Desarrollo web enfocado sobre todo a front",
     "url": "https://www.youtube.com/channel/UC9tcfsScui3S70hp_wC_EPw",
     "date": "13/12/2020",
     "categoryName": "Youtube"
   },
   {
     "name": "Hector de Leon Youtube",
-    "description": "Desarrollo web enfocado sobre todo a front",
+    "description": "Aprende a programar aquí con diferentes lenguajes",
     "url": "https://www.youtube.com/c/hdeleonnet/",
     "date": "11/12/2020",
     "categoryName": "Youtube"
-  },  
+  },
   {
     "name": "Code Skills",
     "description": "Desarrollo enfocado a tecnologías de Microsoft",
