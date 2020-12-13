@@ -224,6 +224,13 @@
     "categoryName": "Layout"
   },
   {
+    "name": "Flexbox Froggy",
+    "description": "Aprende flexbox jugando con ranas",
+    "url": "https://flexboxfroggy.com/",
+    "date": "13/12/2020",
+    "categoryName": "Layout"
+  },
+  {
     "name": "iHateRegex",
     "description": "Expresiones regulares que se usan comunmente",
     "url": "https://ihateregex.io/",
@@ -292,12 +299,12 @@
     "url": "https://www.youtube.com/c/hdeleonnet/",
     "date": "11/12/2020",
     "categoryName": "Youtube"
-  },
+  },  
   {
-    "name": "Flexbox Froggy",
-    "description": "Aprende flexbox jugando con ranas",
-    "url": "https://flexboxfroggy.com/",
+    "name": "Code Skills",
+    "description": "Desarrollo enfocado a tecnologías de Microsoft",
+    "url": "https://www.youtube.com/c/jestradabe/",
     "date": "13/12/2020",
-    "categoryName": "Layout"
+    "categoryName": "Youtube"
   }
 ]
