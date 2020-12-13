@@ -91,6 +91,13 @@
     "categoryName": "Colores"
   },
   {
+    "name": "Introducción a GraphQL desde las bases hasta crear APIs",
+    "description": "Primeros pasos con GraphQL: Lenguaje de manipulación y consulta de datos Open Source para API. Desarrollado por Facebook",
+    "url": "https://www.udemy.com/course/introduccion-a-graphql-desde-las-bases-hasta-crear-apis/",
+    "date": "13/12/2020",
+    "categoryName": "Cursos Online"
+  },
+  {
     "name": "Font Flipper",
     "description": "Visualiza fuentes de google en tus diseños",
     "url": "https://fontflipper.com/",
