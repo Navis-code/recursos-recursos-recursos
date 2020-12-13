@@ -1,27 +1,43 @@
-# RecursosRecursosRecursos
+# Recursos, recursos, recursos
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
+> Encuentra recursos para desarrollo web gratuitos 🆓
 
-## Development server
+## Contribución
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Esta web está desarrollada para ayudar a la comunidad, por lo tanto si tienes alguna idea de mejora, sabes de algún recurso que pueda venir bien a alguién o quieras incluir el tuyo, puedes contribuir.
 
-## Code scaffolding
+El único requisito que existe es: **todos los recursos añadidos deben ser gratuitos**
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+No necesitas instalar nada si quieres contribuir, solo incluir en una pull request el archivo **all.json** modificado
 
-## Build
+Por favor, intenta incluir **1 recurso por pull request** porque será más fácil de verificar
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Los datos a introducir son:
 
-## Running unit tests
+```sh
+name: Nombre del recurso
+description: Breve descripción
+url: Url del recurso (importante url válida)
+date: Fecha actual en formato dd/mm/yyyy
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Instalación
 
-## Running end-to-end tests
+Requiere [Angular](https://angular.io/) para funcionar.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Instalación de dependencias e iniciar proyecto.
 
-## Further help
+```sh
+npm i
+ng serve
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Si es la primera vez, necesitaras obtener los screenshot mediante el script, para ello usa:
+
+```sh
+npm run img:get
+```
+
+# Comparte
+
+Si te ha gustado, comparte para ayudar a más personas!
