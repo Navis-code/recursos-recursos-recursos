@@ -91,6 +91,13 @@
     "categoryName": "Colores"
   },
   {
+    "name": "Color Hunt",
+    "description": "Paletas de colores seleccionadas a mano",
+    "url": "https://colorhunt.co/",
+    "date": "13/12/2020",
+    "categoryName": "Colores"
+  },
+  {
     "name": "Font Flipper",
     "description": "Visualiza fuentes de google en tus diseños",
     "url": "https://fontflipper.com/",
