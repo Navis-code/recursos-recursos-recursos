@@ -7,6 +7,7 @@ const { statSync, readdirSync, unlink, existsSync, mkdirSync } = require("fs");
 const { join } = require("path");
 
 const FOLDER_PATH = "/src/assets/screenshots";
+const excludeSH = ["Udemy", "Youtube"];
 /*
 ## Comprueba directorio si existe según FOLDER_PATH
 ## Si no está lo crea con mkdir
@@ -61,7 +62,9 @@ async function makeScreenshots(resources) {
   console.log("Creating screenshots...");
   for (let index = 0; index < resources.length; index++) {
     const resource = resources[index];
-    await capture(resource, screenshotsFolder);
+    if (!excludeSH.includes(resource.categoryName)) {
+      await capture(resource, screenshotsFolder);
+    }
     writeProgressBarOnConsole(index, resources.length);
   }
   // RESIZE IMG
