@@ -28,6 +28,13 @@
     "categoryName": "Animaciones"
   },
   {
+    "name": "cubic bezier",
+    "description": "Tool para generar la propiedad cubic bezier y tener mayor control en nuestras animaciones",
+    "url": "https://cubic-bezier.com/",
+    "date": "13/12/2020",
+    "categoryName": "Animaciones"
+  },
+  {
     "name": "Desire M Carmona",
     "description": "Diseño, UX/UI, desarrollo y más...",
     "url": "https://desiremcarmona.com/",
@@ -82,6 +89,13 @@
     "url": "https://cssgradient.io/",
     "date": "12/12/2020",
     "categoryName": "Colores"
+  },
+  {
+    "name": "Introducción a GraphQL desde las bases hasta crear APIs",
+    "description": "Primeros pasos con GraphQL: Lenguaje de manipulación y consulta de datos Open Source para API. Desarrollado por Facebook",
+    "url": "https://www.udemy.com/course/introduccion-a-graphql-desde-las-bases-hasta-crear-apis/",
+    "date": "13/12/2020",
+    "categoryName": "Cursos Online"
   },
   {
     "name": "Font Flipper",
@@ -207,6 +221,13 @@
     "description": "Aprende Css Grid jugando a cultivar un jardín",
     "url": "http://cssgridgarden.com/",
     "date": "12/12/2020",
+    "categoryName": "Layout"
+  },
+  {
+    "name": "Flexbox Froggy",
+    "description": "Aprende flexbox jugando con ranas",
+    "url": "https://flexboxfroggy.com/",
+    "date": "13/12/2020",
     "categoryName": "Layout"
   },
   {
