@@ -28,6 +28,13 @@
     "categoryName": "Animaciones"
   },
   {
+    "name": "cubic bezier",
+    "description": "Tool para generar la propiedad cubic bezier y tener mayor control en nuestras animaciones",
+    "url": "https://cubic-bezier.com/",
+    "date": "13/12/2020",
+    "categoryName": "Animaciones"
+  },
+  {
     "name": "Desire M Carmona",
     "description": "Diseño, UX/UI, desarrollo y más...",
     "url": "https://desiremcarmona.com/",
