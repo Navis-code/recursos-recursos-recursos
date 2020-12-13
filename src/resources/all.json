@@ -126,6 +126,13 @@
     "categoryName": "Git"
   },
   {
+    "name": "Learning Git Branching",
+    "description": "Aprende a trabajar con Git jugando",
+    "url": "https://learngitbranching.js.org/",
+    "date": "13/12/2020",
+    "categoryName": "Git"
+  },
+  {
     "name": "Basicons",
     "description": "Iconos en formato SVG",
     "url": "https://basicons.xyz/",
