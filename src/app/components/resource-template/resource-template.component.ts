@@ -1,4 +1,5 @@
-import { Component, Input } from '@angular/core';
+import { CategoriesWihoutScreenshot } from './../../enums/categoriesWithoutScreenshots.enum';
+import { Component, Input, OnInit } from '@angular/core';
 import { Resource } from '@models/resource-model';
 
 @Component({
@@ -6,10 +7,22 @@ import { Resource } from '@models/resource-model';
   templateUrl: './resource-template.component.html',
   styleUrls: ['./resource-template.component.scss'],
 })
-export class ResourceTemplateComponent {
+export class ResourceTemplateComponent implements OnInit {
   @Input() resource: Resource;
+  imagePath: string;
+
+  ngOnInit(): void {
+    this.imagePath = this.getImagePath(this.resource.categoryName);
+  }
+
+  getImagePath(resourceCategory: string): string {
+    if (this.resource.categoryName in CategoriesWihoutScreenshot) {
+      return `/assets/default/${resourceCategory}-default.webp`;
+    }
+    return `/assets/screenshots/${this.resource.name}.webp`;
+  }
 
   onImgError(event: { target: HTMLImageElement }): void {
-    event.target.src = '/assets/default/default.jpg';
+    event.target.src = '/assets/default/default.webp';
   }
 }

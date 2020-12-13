@@ -63,6 +63,13 @@
     "categoryName": "Blog"
   },
   {
+    "name": "Te Lo Explico Con Gatitos",
+    "description": "Conceptos de programación ¡explicados con gatitos!",
+    "url": "https://teloexplicocongatitos.com/",
+    "date": "13/12/2020",
+    "categoryName": "Blog"
+  },
+  {
     "name": "Accessible Brand Colors",
     "description": "Encuentra colores accesibles y comparalos",
     "url": "https://abc.useallfive.com/",
@@ -88,6 +95,13 @@
     "description": "Generador de degradados de forma visual",
     "url": "https://cssgradient.io/",
     "date": "12/12/2020",
+    "categoryName": "Colores"
+  },
+  {
+    "name": "Color Hunt",
+    "description": "Paletas de colores seleccionadas a mano",
+    "url": "https://colorhunt.co/",
+    "date": "13/12/2020",
     "categoryName": "Colores"
   },
   {
@@ -123,6 +137,13 @@
     "description": "Encuentra los comandos de git de forma simple",
     "url": "https://gitexplorer.com/",
     "date": "12/12/2020",
+    "categoryName": "Git"
+  },
+  {
+    "name": "Learning Git Branching",
+    "description": "Aprende a trabajar con Git jugando",
+    "url": "https://learngitbranching.js.org/",
+    "date": "13/12/2020",
     "categoryName": "Git"
   },
   {
@@ -227,6 +248,13 @@
     "name": "Flexbox Froggy",
     "description": "Aprende flexbox jugando con ranas",
     "url": "https://flexboxfroggy.com/",
+    "date": "13/12/2020",
+    "categoryName": "Layout"
+  },
+  {
+    "name": "Responsive Test Tool",
+    "description": "Verifica si tu sitio es compatible con todos los dispositivos",
+    "url": "http://responsivetesttool.com/",
     "date": "13/12/2020",
     "categoryName": "Layout"
   },
