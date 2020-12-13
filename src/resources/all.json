@@ -35,6 +35,27 @@
     "categoryName": "Blog"
   },
   {
+    "name": "Apuntes de majo",
+    "description": "No es un blog, son apuntes de alta calidad",
+    "url": "https://losapuntesdemajo.now.sh/",
+    "date": "12/12/2020",
+    "categoryName": "Blog"
+  },
+  {
+    "name": "Wmedia",
+    "description": "Técnicas, procesos... todo útil para el desarrollo web",
+    "url": "https://wmedia.es/articulos/",
+    "date": "12/12/2020",
+    "categoryName": "Blog"
+  },
+  {
+    "name": "Carlos Azaustre Blog",
+    "description": "Blog de uno de los referentes en desarrollo web",
+    "url": "https://carlosazaustre.es/blog",
+    "date": "12/12/2020",
+    "categoryName": "Blog"
+  },
+  {
     "name": "Accessible Brand Colors",
     "description": "Encuentra colores accesibles y comparalos",
     "url": "https://abc.useallfive.com/",
@@ -238,9 +259,23 @@
     "categoryName": "SVG"
   },
   {
+    "name": "Pablo Sirera Twitch",
+    "description": "Vue, entrevistas... contenido muy bueno",
+    "url": "https://www.twitch.tv/pablosirera",
+    "date": "12/12/2020",
+    "categoryName": "Twitch"
+  },
+  {
     "name": "Navis Code Youtube",
-    "description": "Desarrollo web enfocado sobre todo a front",
+    "description": "Aprende a programar aquí con diferentes lenguajes",
     "url": "https://www.youtube.com/channel/UC9tcfsScui3S70hp_wC_EPw",
+    "date": "13/12/2020",
+    "categoryName": "Youtube"
+  },
+  {
+    "name": "Hector de Leon Youtube",
+    "description": "Desarrollo web enfocado sobre todo a front",
+    "url": "https://www.youtube.com/c/hdeleonnet/",
     "date": "11/12/2020",
     "categoryName": "Youtube"
   }
