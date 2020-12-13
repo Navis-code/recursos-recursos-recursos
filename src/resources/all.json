@@ -63,6 +63,13 @@
     "categoryName": "Blog"
   },
   {
+    "name": "Te Lo Explico Con Gatitos",
+    "description": "Conceptos de programación ¡explicados con gatitos!",
+    "url": "https://teloexplicocongatitos.com/",
+    "date": "13/12/2020",
+    "categoryName": "Blog"
+  },
+  {
     "name": "Accessible Brand Colors",
     "description": "Encuentra colores accesibles y comparalos",
     "url": "https://abc.useallfive.com/",
