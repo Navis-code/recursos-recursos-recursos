@@ -278,5 +278,12 @@
     "url": "https://www.youtube.com/c/hdeleonnet/",
     "date": "11/12/2020",
     "categoryName": "Youtube"
+  },  
+  {
+    "name": "Code Skills",
+    "description": "Desarrollo enfocado a tecnologías de Microsoft",
+    "url": "https://www.youtube.com/c/jestradabe/",
+    "date": "13/12/2020",
+    "categoryName": "Youtube"
   }
 ]
