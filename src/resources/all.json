@@ -238,6 +238,13 @@
     "categoryName": "Layout"
   },
   {
+    "name": "Responsive Test Tool",
+    "description": "Verifica si tu sitio es compatible con todos los dispositivos",
+    "url": "http://responsivetesttool.com/",
+    "date": "13/12/2020",
+    "categoryName": "Layout"
+  },
+  {
     "name": "iHateRegex",
     "description": "Expresiones regulares que se usan comunmente",
     "url": "https://ihateregex.io/",
