@@ -28,7 +28,7 @@
     "categoryName": "Animaciones"
   },
   {
-    "name": "cubic bezier",
+    "name": "Cubic Bezier",
     "description": "Tool para generar la propiedad cubic bezier y tener mayor control en nuestras animaciones",
     "url": "https://cubic-bezier.com/",
     "date": "13/12/2020",
@@ -313,5 +313,12 @@
     "url": "https://www.youtube.com/c/jestradabe/",
     "date": "13/12/2020",
     "categoryName": "Youtube"
-  }
+  },
+  {
+    "name": "Am Charts",
+    "description": "Librería JS para todos las necesidades de visualización de datos.",
+    "url": "https://www.amcharts.com/",
+    "date": "13/12/2020",
+    "categoryName": "Librerías"
+  }  
 ]
