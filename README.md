@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0bd451f1-c969-4662-9079-707691c829ed/deploy-status)](https://app.netlify.com/sites/recursosrecursosrecursos/deploys)
+
 # Recursos, recursos, recursos
 
 > Encuentra recursos para desarrollo web gratuitos 🆓
