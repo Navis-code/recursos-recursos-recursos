@@ -91,6 +91,20 @@
     "categoryName": "Colores"
   },
   {
+    "name": "Compodoc: Crea documentación en proyectos Angular/Ionic/TS",
+    "description": "Crear documentación de calidad y MUY fácil de mantener con Compodoc para proyectos de Angular 2+ / Ionic 2+ / Typescript",
+    "url": "https://www.udemy.com/course/compodoc-crea-documentacion-en-angular-ionic/",
+    "date": "13/12/2020",
+    "categoryName": "Cursos Online"
+  },
+  {
+    "name": "Introducción a GraphQL desde las bases hasta crear APIs",
+    "description": "Primeros pasos con GraphQL: Lenguaje de manipulación y consulta de datos Open Source para API. Desarrollado por Facebook",
+    "url": "https://www.udemy.com/course/introduccion-a-graphql-desde-las-bases-hasta-crear-apis/",
+    "date": "13/12/2020",
+    "categoryName": "Cursos Online"
+  },
+  {
     "name": "Font Flipper",
     "description": "Visualiza fuentes de google en tus diseños",
     "url": "https://fontflipper.com/",
@@ -116,6 +130,13 @@
     "description": "Encuentra los comandos de git de forma simple",
     "url": "https://gitexplorer.com/",
     "date": "12/12/2020",
+    "categoryName": "Git"
+  },
+  {
+    "name": "Learning Git Branching",
+    "description": "Aprende a trabajar con Git jugando",
+    "url": "https://learngitbranching.js.org/",
+    "date": "13/12/2020",
     "categoryName": "Git"
   },
   {
