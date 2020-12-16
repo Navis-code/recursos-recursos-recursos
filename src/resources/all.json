@@ -266,6 +266,20 @@
     "categoryName": "Layout"
   },
   {
+    "name": "Eloquent JavaScript",
+    "description": "Introducción moderna a la programación",
+    "url": "https://eloquentjavascript.net/",
+    "date": "16/12/2020",
+    "categoryName": "Libros"
+  },
+  {
+    "name": "Learning JavaScript Design Patterns",
+    "description": "Soluciones reutilizables durante desarrollo de software",
+    "url": "https://addyosmani.com/resources/essentialjsdesignpatterns/book/",
+    "date": "16/12/2020",
+    "categoryName": "Libros"
+  },
+  {
     "name": "iHateRegex",
     "description": "Expresiones regulares que se usan comunmente",
     "url": "https://ihateregex.io/",
