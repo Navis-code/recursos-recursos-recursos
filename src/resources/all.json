@@ -70,6 +70,20 @@
     "categoryName": "Blog"
   },
   {
+    "name": "30 segundos",
+    "description": "Snippets cortos de código",
+    "url": "https://www.30secondsofcode.org/",
+    "date": "14/12/2020",
+    "categoryName": "Blog"
+  },
+  {
+    "name": "Kent C. Dodds Blog",
+    "description": "Blog de uno de los referentes en el mundo React",
+    "url": "https://kentcdodds.com/blog/",
+    "date": "14/12/2020",
+    "categoryName": "Blog"
+  },
+  {
     "name": "Accessible Brand Colors",
     "description": "Encuentra colores accesibles y comparalos",
     "url": "https://abc.useallfive.com/",
