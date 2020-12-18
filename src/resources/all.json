@@ -287,6 +287,13 @@
     "categoryName": "Layout"
   },
   {
+    "name": "W3Layouts",
+    "description": "Miles de plantillas para diferentes tipos de proyectos",
+    "url": "https://w3layouts.com/",
+    "date": "18/12/2020",
+    "categoryName": "Layout"
+  },
+  {
     "name": "Eloquent JavaScript",
     "description": "Introducción moderna a la programación",
     "url": "https://eloquentjavascript.net/",
