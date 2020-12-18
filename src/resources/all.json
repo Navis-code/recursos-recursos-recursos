@@ -280,6 +280,13 @@
     "categoryName": "Layout"
   },
   {
+    "name": "Flexy Boxes",
+    "description": "Generador de codigo con flexbox y playground",
+    "url": "https://the-echoplex.net/flexyboxes/",
+    "date": "18/12/2020",
+    "categoryName": "Layout"
+  },
+  {
     "name": "Eloquent JavaScript",
     "description": "Introducción moderna a la programación",
     "url": "https://eloquentjavascript.net/",
