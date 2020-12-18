@@ -70,6 +70,20 @@
     "categoryName": "Blog"
   },
   {
+    "name": "30 segundos",
+    "description": "Snippets cortos de código",
+    "url": "https://www.30secondsofcode.org/",
+    "date": "14/12/2020",
+    "categoryName": "Blog"
+  },
+  {
+    "name": "Kent C. Dodds Blog",
+    "description": "Blog de uno de los referentes en el mundo React",
+    "url": "https://kentcdodds.com/blog/",
+    "date": "14/12/2020",
+    "categoryName": "Blog"
+  },
+  {
     "name": "Accessible Brand Colors",
     "description": "Encuentra colores accesibles y comparalos",
     "url": "https://abc.useallfive.com/",
@@ -264,6 +278,27 @@
     "url": "http://responsivetesttool.com/",
     "date": "13/12/2020",
     "categoryName": "Layout"
+  },
+  {
+    "name": "Flexy Boxes",
+    "description": "Generador de codigo con flexbox y playground",
+    "url": "https://the-echoplex.net/flexyboxes/",
+    "date": "18/12/2020",
+    "categoryName": "Layout"
+  },
+  {
+    "name": "Eloquent JavaScript",
+    "description": "Introducción moderna a la programación",
+    "url": "https://eloquentjavascript.net/",
+    "date": "16/12/2020",
+    "categoryName": "Libros"
+  },
+  {
+    "name": "Learning JavaScript Design Patterns",
+    "description": "Soluciones reutilizables durante desarrollo de software",
+    "url": "https://addyosmani.com/resources/essentialjsdesignpatterns/book/",
+    "date": "16/12/2020",
+    "categoryName": "Libros"
   },
   {
     "name": "iHateRegex",
