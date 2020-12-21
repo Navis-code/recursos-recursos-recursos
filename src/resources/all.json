@@ -287,13 +287,6 @@
     "categoryName": "Layout"
   },
   {
-    "name": "W3Layouts",
-    "description": "Miles de plantillas para diferentes tipos de proyectos",
-    "url": "https://w3layouts.com/",
-    "date": "18/12/2020",
-    "categoryName": "Layout"
-  },
-  {
     "name": "Eloquent JavaScript",
     "description": "Introducción moderna a la programación",
     "url": "https://eloquentjavascript.net/",
@@ -400,7 +393,7 @@
   },
   {
     "name": "Anartz Mugika Ledo",
-    "description": "Videos sobre diferentes tecnologías, tutoriales y +",
+    "description": "Diferentes tecnologías, tutoriales y +",
     "url": "https://www.youtube.com/c/mugan86/",
     "date": "18/12/2020",
     "categoryName": "Youtube"
