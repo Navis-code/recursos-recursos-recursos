@@ -252,6 +252,13 @@
     "categoryName": "JavaScript"
   },
   {
+    "name": "JavaScript Info",
+    "description": "Aprende JS desde cero paso a paso ",
+    "url": "https://javascript.info/",
+    "date": "24/12/2020",
+    "categoryName": "JavaScript"
+  },
+  {
     "name": "CSS Grid Generator",
     "description": "Generador de codigo para css grid",
     "url": "https://cssgrid-generator.netlify.app/",
