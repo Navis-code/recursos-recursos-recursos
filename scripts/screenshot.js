@@ -7,7 +7,7 @@ const { statSync, readdirSync, unlink, existsSync, mkdirSync } = require("fs");
 const { join } = require("path");
 
 const FOLDER_PATH = "/src/assets/screenshots";
-const excludeSH = ["Udemy", "Youtube"];
+const excludeSH = ["Udemy", "Youtube", "Twitch"];
 /*
 ## Comprueba directorio si existe según FOLDER_PATH
 ## Si no está lo crea con mkdir

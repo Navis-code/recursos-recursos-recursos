@@ -371,6 +371,13 @@
     "categoryName": "Twitch"
   },
   {
+    "name": "Oscar Martin Twitch",
+    "description": "Programador móvil freelance Flutter-Dev",
+    "url": "https://www.twitch.tv/OscarMartinDEV",
+    "date": "29/12/2020",
+    "categoryName": "Twitch"
+  },
+  {
     "name": "Introducción a GraphQL",
     "description": "Primeros pasos con GraphQL",
     "url": "https://www.udemy.com/course/introduccion-a-graphql-desde-las-bases-hasta-crear-apis/",
