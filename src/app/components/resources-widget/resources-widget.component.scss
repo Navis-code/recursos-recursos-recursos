@@ -1,11 +1,12 @@
 .card-container {
-  max-width: 1200px;
+  max-width: 100vw;
   margin: 0 auto;
   padding: 0 40px;
   display: flex;
   flex-direction: column;
   margin-top: 25px;
   @media (min-width: 768px) {
+    max-width: 1200px;
     flex-direction: row;
     max-height: 500px;
   }
@@ -58,7 +59,16 @@
     transition: 0.5s;
   }
 }
+.virtual-scroll-viewport-main-resources {
+  height: 100vh;
+  &::-webkit-scrollbar {
+    width: 3px;
+  }
+}
 
+.virtual-scroll-viewport-main-resources-item {
+  height: 500px;
+}
 //SWIPER
 swiper {
   .swiper-wrapper {

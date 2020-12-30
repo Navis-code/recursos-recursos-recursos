@@ -19,6 +19,7 @@ import { MatCardModule } from '@angular/material/card';
 import { ResourceTemplateComponent } from './components/resource-template/resource-template.component';
 import { NgxUsefulSwiperModule } from 'ngx-useful-swiper';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
+import { ScrollingModule } from '@angular/cdk/scrolling';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { LazyLoadImageModule } from 'ng-lazyload-image';
     MatCardModule,
     NgxUsefulSwiperModule,
     LazyLoadImageModule,
+    ScrollingModule,
   ],
   providers: [ResourceService],
   bootstrap: [AppComponent],

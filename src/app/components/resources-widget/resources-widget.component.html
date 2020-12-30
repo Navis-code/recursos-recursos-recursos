@@ -1,18 +1,21 @@
-<ng-container *ngFor="let category of categoriesWithResources">
-  <div class="card-container">
-    <div class="card-cover" (click)="click(category.categoryName)">
-      <a mat-list-item routerLink="/category/{{category.categoryName}}"
-        class="category-title">{{category.categoryName}}</a>
-    </div>
-    <div class="swiper-box">
-      <swiper [config]="config">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide" *ngFor="let resource of category.resources | slice:0:5">
-            <app-resource-template [resource]="resource"></app-resource-template>
+<cdk-virtual-scroll-viewport itemSize="500" class="virtual-scroll-viewport-main-resources">
+  <ng-container class="virtual-scroll-viewport-main-resources-item"
+    *cdkVirtualFor="let category of categoriesWithResources">
+    <div class="card-container">
+      <div class="card-cover" (click)="click(category.categoryName)">
+        <a mat-list-item routerLink="/category/{{category.categoryName}}"
+          class="category-title">{{category.categoryName}}</a>
+      </div>
+      <div class="swiper-box">
+        <swiper [config]="config">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" *ngFor="let resource of category.resources | slice:0:5">
+              <app-resource-template [resource]="resource"></app-resource-template>
+            </div>
           </div>
-        </div>
-        <div class="swiper-pagination"></div>
-      </swiper>
+          <div class="swiper-pagination"></div>
+        </swiper>
+      </div>
     </div>
-  </div>
-</ng-container>
+  </ng-container>
+</cdk-virtual-scroll-viewport>
