@@ -18,6 +18,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
 import { ResourceTemplateComponent } from './components/resource-template/resource-template.component';
 import { NgxUsefulSwiperModule } from 'ngx-useful-swiper';
+import { LazyLoadImageModule } from 'ng-lazyload-image';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { NgxUsefulSwiperModule } from 'ngx-useful-swiper';
     MatListModule,
     MatCardModule,
     NgxUsefulSwiperModule,
+    LazyLoadImageModule,
   ],
   providers: [ResourceService],
   bootstrap: [AppComponent],
