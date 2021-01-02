@@ -224,6 +224,13 @@
     "categoryName": "Iconos"
   },
   {
+    "name": "Boxicons",
+    "description": "Set iconos sin atribucion necesaria",
+    "url": "https://boxicons.com/",
+    "date": "02/01/2021",
+    "categoryName": "Iconos"
+  },
+  {
     "name": "Unsplash",
     "description": "Imagenes de alta calidad multiples categorías",
     "url": "https://unsplash.com/",
