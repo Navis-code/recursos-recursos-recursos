@@ -322,6 +322,13 @@
     "categoryName": "Libros"
   },
   {
+    "name": "JavaScript for impatient programmers",
+    "description": "Versión online en HTML",
+    "url": "https://exploringjs.com/impatient-js/index.html",
+    "date": "04/01/2021",
+    "categoryName": "Libros"
+  },
+  {
     "name": "iHateRegex",
     "description": "Expresiones regulares que se usan comunmente",
     "url": "https://ihateregex.io/",
