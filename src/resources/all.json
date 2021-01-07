@@ -314,6 +314,13 @@
     "date": "18/12/2020",
     "categoryName": "Layout"
   },
+   {
+    "name": "diagrams.net",
+    "description": "Crea diagramas y layouts rapidamente de tus ideas y compartelos",
+    "url": "https://www.diagrams.net/",
+    "date": "05/01/2021",
+    "categoryName": "Layout"
+  },
   {
     "name": "Eloquent JavaScript",
     "description": "Introducción moderna a la programación",
