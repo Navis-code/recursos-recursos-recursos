@@ -1,6 +1,6 @@
 <mat-card class="resource-card">
   <div class="image-card-container">
-    <img mat-card-image [lazyLoad]="imagePath" alt="Photo of resource {{resource.name}}" (error)="onImgError($event)">
+    <img mat-card-image [lazyLoad]="imagePath" alt="Photo of resource {{resource.name}}" [defaultImage]="defaultImg">
   </div>
   <div>
     <mat-card-title>{{resource.name}}</mat-card-title>

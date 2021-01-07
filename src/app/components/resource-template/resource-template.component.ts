@@ -10,6 +10,7 @@ import { Resource } from '@models/resource-model';
 export class ResourceTemplateComponent implements OnInit {
   @Input() resource: Resource;
   imagePath: string;
+  defaultImg = '/assets/default/default.webp';
 
   ngOnInit(): void {
     this.imagePath = this.getImagePath(this.resource.categoryName);
@@ -20,9 +21,5 @@ export class ResourceTemplateComponent implements OnInit {
       return `/assets/default/${resourceCategory}-default.webp`;
     }
     return `/assets/screenshots/${this.resource.name}.webp`;
-  }
-
-  onImgError(event: { target: HTMLImageElement }): void {
-    event.target.src = '/assets/default/default.webp';
   }
 }
