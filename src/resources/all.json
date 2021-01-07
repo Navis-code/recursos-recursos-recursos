@@ -140,6 +140,13 @@
     "categoryName": "Didacticos"
   },
   {
+    "name": "Can I email",
+    "description": "Conoce propiedades soportadas en email",
+    "url": "https://www.caniemail.com/",
+    "date": "07/01/2021",
+    "categoryName": "E-mail"
+  },
+  {
     "name": "Font Flipper",
     "description": "Visualiza fuentes de google en tus diseños",
     "url": "https://fontflipper.com/",
