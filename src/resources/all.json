@@ -266,13 +266,6 @@
     "categoryName": "JavaScript"
   },
   {
-    "name": "diagrams.net",
-    "description": "Crea diagramas y layouts rapidamente de tus ideas y compartelos",
-    "url": "https://app.diagrams.net/",
-    "date": "05/01/2021",
-    "categoryName": "Layout"
-  },
-  {
     "name": "CSS Grid Generator",
     "description": "Generador de codigo para css grid",
     "url": "https://cssgrid-generator.netlify.app/",
@@ -312,6 +305,13 @@
     "description": "Generador de codigo con flexbox y playground",
     "url": "https://the-echoplex.net/flexyboxes/",
     "date": "18/12/2020",
+    "categoryName": "Layout"
+  },
+   {
+    "name": "diagrams.net",
+    "description": "Crea diagramas y layouts rapidamente de tus ideas y compartelos",
+    "url": "https://www.diagrams.net/",
+    "date": "05/01/2021",
     "categoryName": "Layout"
   },
   {
