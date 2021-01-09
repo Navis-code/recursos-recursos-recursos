@@ -406,6 +406,13 @@
     "categoryName": "Twitch"
   },
   {
+    "name": "Ari_reinventada",
+    "description": "Programadora web, aprender de forma amigable",
+    "url": "https://www.twitch.tv/ari_reinventada",
+    "date": "09/01/2021",
+    "categoryName": "Twitch"
+  },
+  {
     "name": "Introducción a GraphQL",
     "description": "Primeros pasos con GraphQL",
     "url": "https://www.udemy.com/course/introduccion-a-graphql-desde-las-bases-hasta-crear-apis/",
