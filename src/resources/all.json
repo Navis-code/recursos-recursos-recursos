@@ -42,6 +42,20 @@
     "categoryName": "Animaciones"
   },
   {
+    "name": "csseffects",
+    "description": "Copia animaciones para botones fácil",
+    "url": "https://emilkowalski.github.io/css-effects-snippets/",
+    "date": "15/01/2021",
+    "categoryName": "Animaciones"
+  },
+  {
+    "name": "CSS Background Patterns",
+    "description": "Crea y modifica bg y copia css",
+    "url": "https://www.magicpattern.design/tools/css-backgrounds/",
+    "date": "15/01/2021",
+    "categoryName": "Background"
+  },
+  {
     "name": "Desire M Carmona",
     "description": "Diseño, UX/UI, desarrollo y más...",
     "url": "https://desiremcarmona.com/",
@@ -341,6 +355,13 @@
     "url": "https://exploringjs.com/impatient-js/index.html",
     "date": "04/01/2021",
     "categoryName": "Libros"
+  },
+  {
+    "name": "Device Shots",
+    "description": "Muestra screenshot en dispositivos",
+    "url": "https://deviceshots.com/",
+    "date": "15/01/2021",
+    "categoryName": "Mockup"
   },
   {
     "name": "iHateRegex",
