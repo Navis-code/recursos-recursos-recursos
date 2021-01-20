@@ -140,6 +140,13 @@
     "categoryName": "Colores"
   },
   {
+    "name": "CSS Battle",
+    "description": "Compite con miles de personas jugando diferentes juegos basados en CSS y completando varios desafíos.",
+    "url": "https://cssbattle.dev/",
+    "date": "20/01/2021",
+    "categoryName": "Didacticos"
+  },
+  {
     "name": "Warrior JS",
     "description": "Codea tu camino a través de mazmorras, demuestra tus habilidades",
     "url": "https://warriorjs.com/",
