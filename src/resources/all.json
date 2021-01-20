@@ -140,6 +140,13 @@
     "categoryName": "Colores"
   },
   {
+    "name": "Flexbox Zombies",
+    "description": "Ábrete camino a través de un ejército de zombies con tu skills en flexbox",
+    "url": "https://mastery.games/flexboxzombies/",
+    "date": "20/01/2021",
+    "categoryName": "Didacticos"
+  },
+  {
     "name": "Warrior JS",
     "description": "Codea tu camino a través de mazmorras, demuestra tus habilidades",
     "url": "https://warriorjs.com/",
