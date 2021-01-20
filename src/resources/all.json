@@ -140,6 +140,27 @@
     "categoryName": "Colores"
   },
   {
+    "name": "CSS Diner",
+    "description": "Escribe diferentes selectores de CSS para colocar diferentes objetos en la mesa.",
+    "url": "https://css-diner.netlify.app/",
+    "date": "20/01/2021",
+    "categoryName": "Didacticos"
+  },
+  {
+    "name": "Grid Garden",
+    "description": "Aprende Css Grid jugando a cultivar un jardín",
+    "url": "http://cssgridgarden.com/",
+    "date": "12/12/2020",
+    "categoryName": "Didacticos"
+  },
+  {
+    "name": "Flexbox Froggy",
+    "description": "Aprende flexbox jugando con ranas",
+    "url": "https://flexboxfroggy.com/",
+    "date": "13/12/2020",
+    "categoryName": "Didacticos"
+  },
+  {
     "name": "Warrior JS",
     "description": "Codea tu camino a través de mazmorras, demuestra tus habilidades",
     "url": "https://warriorjs.com/",
@@ -298,20 +319,6 @@
     "description": "Aprende flexbox jugando con zombies",
     "url": "https://flexboxzombies.com/p/flexbox-zombies",
     "date": "11/12/2020",
-    "categoryName": "Layout"
-  },
-  {
-    "name": "Grid Garden",
-    "description": "Aprende Css Grid jugando a cultivar un jardín",
-    "url": "http://cssgridgarden.com/",
-    "date": "12/12/2020",
-    "categoryName": "Layout"
-  },
-  {
-    "name": "Flexbox Froggy",
-    "description": "Aprende flexbox jugando con ranas",
-    "url": "https://flexboxfroggy.com/",
-    "date": "13/12/2020",
     "categoryName": "Layout"
   },
   {
