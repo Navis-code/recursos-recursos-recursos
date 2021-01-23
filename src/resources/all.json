@@ -147,6 +147,13 @@
     "categoryName": "Didacticos"
   },
   {
+    "name": "wtf JavaScript Quiz",
+    "description": "Responde el cuestionario para ver cuánto NO sabes sobre JS",
+    "url": "https://jsquiz.wtf/",
+    "date": "19/01/2021",
+    "categoryName": "Didacticos"
+  },
+  {
     "name": "Can't Unsee",
     "description": "Selecciona el diseño que sea más correcto",
     "url": "https://cantunsee.space/",
