@@ -140,11 +140,11 @@
     "categoryName": "Colores"
   },
   {
-    "name": "CSS Battle",
-    "description": "Compite con personas diferentes juegos basados en CSS",
-    "url": "https://cssbattle.dev/",
-    "date": "20/01/2021",
-    "categoryName": "Didacticos"
+    "name": "Coolors",
+    "description": "Paletas, Colores, Contrastes, Gradientes y Mas",
+    "url": "https://coolors.co/",
+    "date": "19/12/2021",
+    "categoryName": "Colores"
   },
   {
     "name": "Warrior JS",
@@ -154,10 +154,24 @@
     "categoryName": "Didacticos"
   },
   {
+    "name": "wtf JavaScript Quiz",
+    "description": "Responde el cuestionario para ver cuánto NO sabes sobre JS",
+    "url": "https://jsquiz.wtf/",
+    "date": "19/01/2021",
+    "categoryName": "Didacticos"
+  },
+  {
     "name": "Can't Unsee",
     "description": "Selecciona el diseño que sea más correcto",
     "url": "https://cantunsee.space/",
     "date": "13/12/2020",
+    "categoryName": "Didacticos"
+  },
+  {
+    "name": "CSS Battle",
+    "description": "Compite con personas diferentes juegos basados en CSS",
+    "url": "https://cssbattle.dev/",
+    "date": "20/01/2021",
     "categoryName": "Didacticos"
   },
   {
