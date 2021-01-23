@@ -154,13 +154,6 @@
     "categoryName": "Didacticos"
   },
   {
-    "name": "wtf JavaScript Quiz",
-    "description": "Responde el cuestionario para ver cuánto NO sabes sobre JS",
-    "url": "https://jsquiz.wtf/",
-    "date": "19/01/2021",
-    "categoryName": "Didacticos"
-  },
-  {
     "name": "Can't Unsee",
     "description": "Selecciona el diseño que sea más correcto",
     "url": "https://cantunsee.space/",
@@ -168,9 +161,23 @@
     "categoryName": "Didacticos"
   },
   {
+    "name": "wtf JavaScript Quiz",
+    "description": "Responde el cuestionario para ver cuánto NO sabes sobre JS",
+    "url": "https://jsquiz.wtf/",
+    "date": "19/01/2021",
+    "categoryName": "Didacticos"
+  },
+  {
     "name": "CSS Battle",
     "description": "Compite con personas diferentes juegos basados en CSS",
     "url": "https://cssbattle.dev/",
+    "date": "20/01/2021",
+    "categoryName": "Didacticos"
+  },
+  {
+    "name": "Flexbox Defense",
+    "description": "Tower Defense para practicar las propiedades de flexbox.",
+    "url": "http://www.flexboxdefense.com/",
     "date": "20/01/2021",
     "categoryName": "Didacticos"
   },
