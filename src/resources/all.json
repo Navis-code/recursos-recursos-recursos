@@ -49,6 +49,13 @@
     "categoryName": "Animaciones"
   },
   {
+    "name": "Getavataars",
+    "description": "Crea un avatar personalizado totalmente gratuito",
+    "url": "https://getavataaars.com/",
+    "date": "29/01/2021",
+    "categoryName": "Avatar"
+  },
+  {
     "name": "CSS Background Patterns",
     "description": "Crea y modifica bg y copia css",
     "url": "https://www.magicpattern.design/tools/css-backgrounds/",
