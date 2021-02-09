@@ -154,6 +154,13 @@
     "categoryName": "Colores"
   },
   {
+    "name": "Createapp",
+    "description": "Configura webpack,parcel,snowpack...fácil",
+    "url": "https://createapp.dev/",
+    "date": "19/12/2021",
+    "categoryName": "Config"
+  },
+  {
     "name": "Grid Garden",
     "description": "Aprende Css Grid jugando a cultivar un jardín",
     "url": "http://cssgridgarden.com/",
