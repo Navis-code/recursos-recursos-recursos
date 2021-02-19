@@ -392,6 +392,13 @@
     "categoryName": "JavaScript"
   },
   {
+    "name": "SmolCSS",
+    "description": "Fragmentos/snippets mínimos para diseños y componentes CSS modernos",
+    "url": "https://smolcss.dev/",
+    "date": "19/02/2021",
+    "categoryName": "CSS"
+  },
+  {
     "name": "CSS Grid Generator",
     "description": "Generador de codigo para css grid",
     "url": "https://cssgrid-generator.netlify.app/",
