@@ -112,6 +112,13 @@
     "categoryName": "Blog"
   },
   {
+    "name": "Box-shadow",
+    "description": "Generador visual de box-shadow",
+    "url": "https://box-shadow.dev/",
+    "date": "02/03/2020",
+    "categoryName": "Box-shadow"
+  },
+  {
     "name": "Accessible Brand Colors",
     "description": "Encuentra colores accesibles y comparalos",
     "url": "https://abc.useallfive.com/",
