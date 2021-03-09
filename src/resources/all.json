@@ -238,6 +238,13 @@
     "categoryName": "Didacticos"
   },
   {
+    "name": "Flexboxadventure",
+    "description": "Aprende flexbox de aventuras",
+    "url": "https://www.flexboxadventure.com/game",
+    "date": "09/03/2021",
+    "categoryName": "Didacticos"
+  },
+  {
     "name": "Can I email",
     "description": "Conoce propiedades soportadas en email",
     "url": "https://www.caniemail.com/",
