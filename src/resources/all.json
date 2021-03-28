@@ -287,6 +287,13 @@
     "categoryName": "Git"
   },
   {
+    "name": "Readgen",
+    "description": "Una herramienta sencilla para generar README",
+    "url": "https://github.com/theapache64/readgen",
+    "date": "28/03/2021",
+    "categoryName": "Git"
+  },
+  {
     "name": "El camino del Frontend Developer",
     "description": "Camino a frontend desde 0",
     "url": "https://github.com/mrcodedev/frontend-developer-resources/",
