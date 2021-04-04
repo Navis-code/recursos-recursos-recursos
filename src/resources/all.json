@@ -392,6 +392,13 @@
     "categoryName": "Imagenes"
   },
   {
+    "name": "error404fun",
+    "description": "Ilustraciones para paginas 404",
+    "url": "https://error404.fun/",
+    "date": "04/04/2021",
+    "categoryName": "Imagenes"
+  },
+  {
     "name": "1loc",
     "description": "Utilidades de JavaScript en 1 linea de codigo",
     "url": "https://1loc.dev/",
