@@ -546,6 +546,20 @@
     "categoryName": "SVG"
   },
   {
+    "name": "Productshot",
+    "description": "Screenshot para llamar la atencion",
+    "url": "https://productshot.app/",
+    "date": "19/04/2021",
+    "categoryName": "Tools"
+  },
+  {
+    "name": "Photo Censor",
+    "description": "Pixela,desenfoca...fotos de forma simple",
+    "url": "https://10015.io/tools/photo-censor",
+    "date": "19/04/2021",
+    "categoryName": "Tools"
+  },
+  {
     "name": "Pablo Sirera Twitch",
     "description": "Vue, entrevistas... contenido muy bueno",
     "url": "https://www.twitch.tv/pablosirera",
