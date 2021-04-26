@@ -560,6 +560,13 @@
     "categoryName": "Tools"
   },
   {
+    "name": "Local pdf",
+    "description": "Combina PDFs, marca de agua, extrae fotos",
+    "url": "https://localpdf.tech/",
+    "date": "26/04/2021",
+    "categoryName": "Tools"
+  },
+  {
     "name": "Pablo Sirera Twitch",
     "description": "Vue, entrevistas... contenido muy bueno",
     "url": "https://www.twitch.tv/pablosirera",
