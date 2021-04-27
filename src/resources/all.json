@@ -511,6 +511,13 @@
     "categoryName": "Regex"
   },
   {
+    "name": "Creación de dApps con Solidity",
+    "description": "Curso gratuito de creación de aplicaciones descentralizadas (dApps) utilizando solidity",
+    "url": "https://courseit.io/cursos/curso-gratuito-dapps-solidity",
+    "date": "27/04/2021",
+    "categoryName": "Smart Contracts"
+  },
+  {
     "name": "Warp SVG",
     "description": "Deforma y modifica SVG",
     "url": "https://pavellaptev.github.io/warp-svg/",
