@@ -21,6 +21,13 @@
     "categoryName": "Accesibilidad"
   },
   {
+    "name": "Curso gratuito de Algoritmia",
+    "description": "Aprender a resolver algoritmos es uno de los pilares necesarios para conseguir tu primer trabajo en sistemas. En este curso se muestran los conceptos básicos para hacerlo",
+    "url": "https://courseit.io/cursos/algoritmos",
+    "date": "27/04/2021",
+    "categoryName": "Algoritmos"
+  },
+  {
     "name": "Keyframes",
     "description": "Crea y edita animaciones viendo resultado en vivo",
     "url": "https://keyframes.app/animate/",
