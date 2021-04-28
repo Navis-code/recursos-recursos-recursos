@@ -21,13 +21,6 @@
     "categoryName": "Accesibilidad"
   },
   {
-    "name": "Curso gratuito de Algoritmia",
-    "description": "Aprender a resolver algoritmos es uno de los pilares necesarios para conseguir tu primer trabajo en sistemas. En este curso se muestran los conceptos básicos para hacerlo",
-    "url": "https://courseit.io/cursos/algoritmos",
-    "date": "27/04/2021",
-    "categoryName": "Algoritmos"
-  },
-  {
     "name": "Keyframes",
     "description": "Crea y edita animaciones viendo resultado en vivo",
     "url": "https://keyframes.app/animate/",
@@ -175,6 +168,27 @@
     "categoryName": "Config"
   },
   {
+    "name": "Algoritmia",
+    "description": "Conceptos básicos para resolver algoritmos",
+    "url": "https://courseit.io/cursos/algoritmos",
+    "date": "27/04/2021",
+    "categoryName": "Cursos"
+  },
+  {
+    "name": "Intro desarrollo web",
+    "description": "Introducción inicial HTML y CSS",
+    "url": "https://courseit.io/cursos/curso-gratuito-html-css",
+    "date": "27/04/2021",
+    "categoryName": "Cursos"
+  },
+  {
+    "name": "Crea dApps con Solidity",
+    "description": "Crea aplicaciones descentralizadas (dApps)",
+    "url": "https://courseit.io/cursos/curso-gratuito-dapps-solidity",
+    "date": "27/04/2021",
+    "categoryName": "Cursos"
+  },
+  {
     "name": "Grid Garden",
     "description": "Aprende Css Grid jugando a cultivar un jardín",
     "url": "http://cssgridgarden.com/",
@@ -313,13 +327,6 @@
     "url": "https://github.com/mrcodedev/frontend-developer-resources/",
     "date": "19/02/2021",
     "categoryName": "Guías"
-  },
-  {
-    "name": "Curso de Introducción al desarrollo web",
-    "description": "Curso gratuito inicial de HTML y CSS",
-    "url": "https://courseit.io/cursos/curso-gratuito-html-css",
-    "date": "27/04/2021",
-    "categoryName": "HTML y CSS"
   },
   {
     "name": "Basicons",
@@ -530,13 +537,6 @@
     "url": "https://regexr.com/",
     "date": "12/12/2020",
     "categoryName": "Regex"
-  },
-  {
-    "name": "Creación de dApps con Solidity",
-    "description": "Curso gratuito de creación de aplicaciones descentralizadas (dApps) utilizando solidity",
-    "url": "https://courseit.io/cursos/curso-gratuito-dapps-solidity",
-    "date": "27/04/2021",
-    "categoryName": "Smart Contracts"
   },
   {
     "name": "Warp SVG",
