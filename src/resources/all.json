@@ -315,6 +315,13 @@
     "categoryName": "Guías"
   },
   {
+    "name": "Curso de Introducción al desarrollo web",
+    "description": "Curso gratuito inicial de HTML y CSS",
+    "url": "https://courseit.io/cursos/curso-gratuito-html-css",
+    "date": "27/04/2021",
+    "categoryName": "HTML y CSS"
+  },
+  {
     "name": "Basicons",
     "description": "Iconos en formato SVG",
     "url": "https://basicons.xyz/",
