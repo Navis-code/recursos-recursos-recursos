@@ -525,6 +525,13 @@
     "categoryName": "Mockup"
   },
   {
+    "name": "Mockup Phone",
+    "description": "Screenshot en dispositivos moviles",
+    "url": "https://mockuphone.com/",
+    "date": "06/05/2021",
+    "categoryName": "Mockup"
+  },
+  {
     "name": "iHateRegex",
     "description": "Expresiones regulares que se usan comunmente",
     "url": "https://ihateregex.io/",
