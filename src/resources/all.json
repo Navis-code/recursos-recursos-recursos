@@ -476,6 +476,13 @@
     "categoryName": "Imagenes"
   },
   {
+    "name": "compressImage",
+    "description": "Comprime JPG y PNG directamente en el navegador",
+    "url": "https://compressimage.io/",
+    "date": "21/06/2021",
+    "categoryName": "Imagenes"
+  },
+  {
     "name": "1loc",
     "description": "Utilidades de JavaScript en 1 linea de codigo",
     "url": "https://1loc.dev/",
