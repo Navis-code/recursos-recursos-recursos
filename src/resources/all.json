@@ -203,6 +203,13 @@
     "categoryName": "Cursos"
   },
   {
+    "name": "The Bézier Game",
+    "description": "Un juego que te ayudara a dominar la pluma Bézier",
+    "url": "https://bezier.method.ac/",
+    "date": "10/07/2021",
+    "categoryName": "Didacticos"
+  },
+  {
     "name": "Grid Garden",
     "description": "Aprende Css Grid jugando a cultivar un jardín",
     "url": "http://cssgridgarden.com/",
