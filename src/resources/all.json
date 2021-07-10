@@ -175,6 +175,13 @@
     "categoryName": "Colores"
   },
   {
+    "name": "sitechecker.pro",
+    "description": "Verifica rápidamente la configuración de tu SEO y posibles warnings",
+    "url": "https://sitechecker.pro/",
+    "date": "10/07/2021",
+    "categoryName": "Config"
+  },
+  {
     "name": "Createapp",
     "description": "Configura webpack,parcel,snowpack...fácil",
     "url": "https://createapp.dev/",
