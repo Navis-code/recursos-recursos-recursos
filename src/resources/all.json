@@ -343,6 +343,13 @@
     "categoryName": "Guías"
   },
   {
+    "name": "CSS.GG",
+    "description": "Iconos Open-source CSS, SVG and Figma UI",
+    "url": "https://css.gg/app",
+    "date": "10/07/2021",
+    "categoryName": "Iconos"
+  },
+  {
     "name": "Basicons",
     "description": "Iconos en formato SVG",
     "url": "https://basicons.xyz/",
