@@ -175,6 +175,13 @@
     "categoryName": "Colores"
   },
   {
+    "name": "Meta Tags Generator",
+    "description": "Crea Meta tags importantes para tu SEO automáticamente",
+    "url": "https://webcode.tools/generators/meta-tags",
+    "date": "10/07/2021",
+    "categoryName": "Config"
+  },
+  {
     "name": "Createapp",
     "description": "Configura webpack,parcel,snowpack...fácil",
     "url": "https://createapp.dev/",
