@@ -175,6 +175,13 @@
     "categoryName": "Colores"
   },
   {
+    "name": "Paletton",
+    "description": "Generador de paletas de colores",
+    "url": "https://paletton.com/",
+    "date": "07/10/2021",
+    "categoryName": "Colores"
+  },
+  {
     "name": "Createapp",
     "description": "Configura webpack,parcel,snowpack...fácil",
     "url": "https://createapp.dev/",
