@@ -525,6 +525,13 @@
     "categoryName": "JavaScript"
   },
   {
+    "name": "Griddy",
+    "description": "Aprende fácilmente CSS Grid con ejemplos asombrosos",
+    "url": "https://griddy.io/",
+    "date": "10/07/2021",
+    "categoryName": "Layout"
+  },
+  {
     "name": "CSS Grid Generator",
     "description": "Generador de codigo para css grid",
     "url": "https://cssgrid-generator.netlify.app/",
