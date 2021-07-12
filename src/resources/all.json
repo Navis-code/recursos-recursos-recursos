@@ -175,6 +175,13 @@
     "categoryName": "Colores"
   },
   {
+    "name": "Paletton",
+    "description": "Generador de paletas de colores",
+    "url": "https://paletton.com/",
+    "date": "07/10/2021",
+    "categoryName": "Colores"
+  },
+  {
     "name": "Sitechecker Pro",
     "description": "Verifica rápidamente la configuración de tu SEO y posibles warnings",
     "url": "https://sitechecker.pro/",
