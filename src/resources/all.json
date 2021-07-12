@@ -567,6 +567,13 @@
     "categoryName": "Layout"
   },
   {
+    "name": "99 tips para web development",
+    "description": "@fmontes nos regala 99 tips de desarrollo Web - español",
+    "url": "https://fmontes.com/es/99-tips-de-web-development",
+    "date": "10/07/2021",
+    "categoryName": "Libros"
+  },
+  {
     "name": "Eloquent JavaScript",
     "description": "Introducción moderna a la programación",
     "url": "https://eloquentjavascript.net/",
