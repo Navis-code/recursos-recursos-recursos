@@ -175,9 +175,16 @@
     "categoryName": "Colores"
   },
   {
-    "name": "sitechecker.pro",
+    "name": "Sitechecker Pro",
     "description": "Verifica rápidamente la configuración de tu SEO y posibles warnings",
     "url": "https://sitechecker.pro/",
+    "date": "10/07/2021",
+    "categoryName": "Config"
+  },
+  {
+    "name": "Meta Tags Generator",
+    "description": "Crea Meta tags importantes para tu SEO automáticamente",
+    "url": "https://webcode.tools/generators/meta-tags",
     "date": "10/07/2021",
     "categoryName": "Config"
   },
@@ -210,81 +217,88 @@
     "categoryName": "Cursos"
   },
   {
+    "name": "Hex Invaders",
+    "description": "Una forma divertida de entender código Hexadecimal y como funciona",
+    "url": "http://www.hexinvaders.com/",
+    "date": "10/07/2021",
+    "categoryName": "Didácticos"
+  },
+  {
     "name": "Grid Garden",
     "description": "Aprende Css Grid jugando a cultivar un jardín",
     "url": "http://cssgridgarden.com/",
     "date": "12/12/2020",
-    "categoryName": "Didacticos"
+    "categoryName": "Didácticos"
   },
   {
     "name": "Flexbox Froggy",
     "description": "Aprende flexbox jugando con ranas",
     "url": "https://flexboxfroggy.com/",
     "date": "13/12/2020",
-    "categoryName": "Didacticos"
+    "categoryName": "Didácticos"
   },
   {
     "name": "Flexbox Zombies",
     "description": "Aprende flexbox jugando con zombies",
     "url": "https://flexboxzombies.com/p/flexbox-zombies",
     "date": "11/12/2020",
-    "categoryName": "Didacticos"
+    "categoryName": "Didácticos"
   },
   {
     "name": "Warrior JS",
     "description": "Codea tu camino a través de mazmorras, demuestra tus habilidades",
     "url": "https://warriorjs.com/",
     "date": "13/12/2020",
-    "categoryName": "Didacticos"
+    "categoryName": "Didácticos"
   },
   {
     "name": "Can't Unsee",
     "description": "Selecciona el diseño que sea más correcto",
     "url": "https://cantunsee.space/",
     "date": "13/12/2020",
-    "categoryName": "Didacticos"
+    "categoryName": "Didácticos"
   },
   {
     "name": "wtf JavaScript Quiz",
     "description": "Responde el cuestionario para ver cuánto NO sabes sobre JS",
     "url": "https://jsquiz.wtf/",
     "date": "19/01/2021",
-    "categoryName": "Didacticos"
+    "categoryName": "Didácticos"
   },
   {
     "name": "CSS Battle",
     "description": "Compite con personas diferentes juegos basados en CSS",
     "url": "https://cssbattle.dev/",
     "date": "20/01/2021",
-    "categoryName": "Didacticos"
+    "categoryName": "Didácticos"
   },
   {
     "name": "Flexbox Defense",
     "description": "Tower Defense para practicar las propiedades de flexbox.",
     "url": "http://www.flexboxdefense.com/",
     "date": "20/01/2021",
-    "categoryName": "Didacticos"
+    "categoryName": "Didácticos"
   },
   {
     "name": "CSS Diner",
     "description": "Escribe diferentes selectores de CSS para colocar diferentes objetos en la mesa.",
     "url": "https://css-diner.netlify.app/",
     "date": "20/01/2021",
-    "categoryName": "Didacticos"
+    "categoryName": "Didácticos"
   },
   {
     "name": "Shortcutfoo",
     "description": "Aprende shortcuts de forma entretenida",
     "url": "https://www.shortcutfoo.com/",
     "date": "25/01/2021",
-    "categoryName": "Didacticos"
+    "categoryName": "Didácticos"
   },
   {
     "name": "Flexboxadventure",
     "description": "Aprende flexbox de aventuras",
     "url": "https://www.flexboxadventure.com/game",
     "date": "09/03/2021",
-    "categoryName": "Didacticos"
+    "categoryName": "Didácticos"
   },
   {
     "name": "Can I email",
@@ -348,6 +362,13 @@
     "url": "https://github.com/mrcodedev/frontend-developer-resources/",
     "date": "19/02/2021",
     "categoryName": "Guías"
+  },
+  {
+    "name": "CSS GG",
+    "description": "Iconos Open-source CSS, SVG and Figma UI",
+    "url": "https://css.gg/app",
+    "date": "10/07/2021",
+    "categoryName": "Iconos"
   },
   {
     "name": "Basicons",
@@ -509,6 +530,13 @@
     "url": "https://javascript.info/",
     "date": "24/12/2020",
     "categoryName": "JavaScript"
+  },
+  {
+    "name": "Griddy",
+    "description": "Aprende fácilmente CSS Grid con ejemplos asombrosos",
+    "url": "https://griddy.io/",
+    "date": "10/07/2021",
+    "categoryName": "Layout"
   },
   {
     "name": "CSS Grid Generator",
