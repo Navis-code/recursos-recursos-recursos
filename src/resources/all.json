@@ -754,5 +754,12 @@
     "url": "https://www.youtube.com/c/mugan86/",
     "date": "18/12/2020",
     "categoryName": "Youtube"
+  },
+  {
+    "name": "Aprende Javascript",
+    "description": "Aprende JS desde cero, en Español",
+    "url": "https://aprendejavascript.org",
+    "date": "26/07/2021",
+    "categoryName": "JavaScript"
   }
 ]
