@@ -754,5 +754,12 @@
     "url": "https://www.youtube.com/c/mugan86/",
     "date": "18/12/2020",
     "categoryName": "Youtube"
+  },
+  {
+    "name": "Jonmircha",
+    "description": "Tutoriales sobre programación web",
+    "url": "https://www.youtube.com/user/bextlancom",
+    "date": "27/07/2021",
+    "categoryName": "Youtube"
   }
 ]
