@@ -358,9 +358,16 @@
   },
   {
     "name": "Gitmoji",
-    "description": "Una guía de emojis para tus mensajes en los commit ",
+    "description": "Una guía de emojis para tus mensajes en los commit",
     "url": "https://gitmoji.dev/",
     "date": "29/03/2021",
+    "categoryName": "Git"
+  },
+  {
+    "name": "Gitnews",
+    "description": "Descubre los repositorios trending filtrados por lenguajes",
+    "url": "https://git.news/",
+    "date": "20/08/2021",
     "categoryName": "Git"
   },
   {
