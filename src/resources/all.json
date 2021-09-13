@@ -56,13 +56,6 @@
     "categoryName": "Animaciones"
   },
   {
-    "name": "Getavataars",
-    "description": "Crea un avatar personalizado totalmente gratuito",
-    "url": "https://getavataaars.com/",
-    "date": "29/01/2021",
-    "categoryName": "Avatar"
-  },
-  {
     "name": "CSS Background Patterns",
     "description": "Crea y modifica bg y copia css",
     "url": "https://www.magicpattern.design/tools/css-backgrounds/",
@@ -649,6 +642,20 @@
     "url": "https://diybookcovers.com/3Dmockups/",
     "date": "01/06/2021",
     "categoryName": "Mockup"
+  },
+  {
+    "name": "Getavataars",
+    "description": "Crea un avatar personalizado totalmente gratuito",
+    "url": "https://getavataaars.com/",
+    "date": "29/01/2021",
+    "categoryName": "Perfil"
+  },
+  {
+    "name": "Pfpmaker",
+    "description": "Crea un perfil a partir de cualquier foto",
+    "url": "https://pfpmaker.com/",
+    "date": "13/09/2021",
+    "categoryName": "Perfil"
   },
   {
     "name": "iHateRegex",
