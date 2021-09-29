@@ -31,7 +31,7 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
     ResourceTemplateComponent,
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSidenavModule,

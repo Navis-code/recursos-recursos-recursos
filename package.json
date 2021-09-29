@@ -8,7 +8,11 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "img:get": "node scripts/screenshot.js"
+    "img:get": "node scripts/screenshot.js",
+    "dev:ssr": "ng run recursos-recursos-recursos:serve-ssr",
+    "serve:ssr": "node dist/recursos-recursos-recursos/server/main.js",
+    "build:ssr": "ng build --prod && ng run recursos-recursos-recursos:server:production",
+    "prerender": "ng run recursos-recursos-recursos:prerender"
   },
   "private": true,
   "dependencies": {
@@ -21,7 +25,10 @@
     "@angular/material": "^11.0.0",
     "@angular/platform-browser": "~11.0.0",
     "@angular/platform-browser-dynamic": "~11.0.0",
+    "@angular/platform-server": "~11.0.0",
     "@angular/router": "~11.0.0",
+    "@nguniversal/express-engine": "^11.0.0",
+    "express": "^4.15.2",
     "imagemin": "^7.0.1",
     "imagemin-webp": "^6.0.0",
     "ng-lazyload-image": "^9.1.0",
@@ -36,6 +43,8 @@
     "@angular-devkit/build-angular": "~0.1100.1",
     "@angular/cli": "~11.0.1",
     "@angular/compiler-cli": "~11.0.0",
+    "@nguniversal/builders": "^11.0.0",
+    "@types/express": "^4.17.13",
     "@types/jasmine": "~3.6.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
