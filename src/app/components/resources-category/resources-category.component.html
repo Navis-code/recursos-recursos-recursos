@@ -1,5 +1,5 @@
 <mat-toolbar class="header-resources">
-  <span>{{category}}</span>
+  <span>{{category | titlecase}}</span>
 </mat-toolbar>
 <div class="card-container">
   <ng-container *ngFor="let resource of resourcesInCategory">
