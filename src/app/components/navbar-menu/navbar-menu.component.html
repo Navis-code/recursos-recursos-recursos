@@ -5,6 +5,6 @@
   <cdk-virtual-scroll-viewport itemSize="50" class="virtual-scroll-viewport-nav-list">
     <a mat-list-item class="virtual-scroll-viewport-nav-list-item" routerLink="/category/{{categoryName}}"
       routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}"
-      *cdkVirtualFor="let categoryName of categoriesName">{{categoryName}}</a>
+      *cdkVirtualFor="let categoryName of categoriesName">{{categoryName | titlecase}}</a>
   </cdk-virtual-scroll-viewport>
 </mat-nav-list>

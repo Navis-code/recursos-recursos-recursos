@@ -14,8 +14,8 @@ export class ResourceService {
   }
   getCategoriesName(): Array<string> {
     /* Map categories and return without duplicated */
-    const categoriesRaw = resourcesJSON.map(
-      (resource) => resource.categoryName
+    const categoriesRaw = resourcesJSON.map((resource) =>
+      resource.categoryName.toLowerCase()
     );
     const categories = [...new Set(categoriesRaw)];
     return categories;
@@ -27,13 +27,15 @@ export class ResourceService {
       resourcesByCategory.push({
         categoryName,
         resources: resourcesJSON.filter(
-          (resource) => resource.categoryName === categoryName
+          (resource) => resource.categoryName.toLowerCase() === categoryName
         ),
       });
     });
     return resourcesByCategory;
   }
   getResourcesBySingleCategory({ categoryName }: Params): Array<Resource> {
-    return resourcesJSON.filter((x) => x.categoryName === categoryName);
+    return resourcesJSON.filter(
+      (data) => data.categoryName.toLowerCase() === categoryName
+    );
   }
 }

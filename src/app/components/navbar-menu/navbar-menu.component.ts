@@ -12,6 +12,8 @@ export class NavbarMenuComponent implements OnInit {
   constructor(private resourceService: ResourceService) {}
 
   ngOnInit(): void {
-    this.categoriesName = this.resourceService.getCategoriesName().sort();
+    this.categoriesName = this.resourceService
+      .getCategoriesName()
+      .sort((a, b) => a.localeCompare(b, 'es', { sensitivity: 'base' }));
   }
 }
