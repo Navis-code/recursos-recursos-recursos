@@ -735,6 +735,13 @@
     "categoryName": "Tools"
   },
   {
+    "name": "SmalldevTools",
+    "description": "Datos fake y herramientas para cualquier desarrollo",
+    "url": "https://smalldev.tools/",
+    "date": "04/11/2021",
+    "categoryName": "Tools"
+  },
+  {
     "name": "Pablo Sirera Twitch",
     "description": "Vue, entrevistas... contenido muy bueno",
     "url": "https://www.twitch.tv/pablosirera",
