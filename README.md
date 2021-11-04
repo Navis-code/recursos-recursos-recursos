@@ -10,7 +10,7 @@ Esta web está desarrollada para ayudar a la comunidad, por lo tanto si tienes a
 
 El único requisito que existe es: **todos los recursos añadidos deben ser gratuitos**
 
-No necesitas instalar nada si quieres contribuir, solo incluir en una pull request el archivo **all.json** modificado
+No necesitas instalar nada si quieres contribuir, solo incluir en una pull request el archivo [**all.json**](https://github.com/Navis-code/recursos-recursos-recursos/blob/master/src/resources/all.json) modificado
 
 Por favor, intenta incluir **1 recurso por pull request** porque será más fácil de verificar
 
