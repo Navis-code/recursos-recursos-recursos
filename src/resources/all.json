@@ -714,13 +714,6 @@
     "categoryName": "SVG"
   },
   {
-    "name": "Productshot",
-    "description": "Screenshot para llamar la atencion",
-    "url": "https://productshot.app/",
-    "date": "19/04/2021",
-    "categoryName": "Tools"
-  },
-  {
     "name": "Photo Censor",
     "description": "Pixela,desenfoca...fotos de forma simple",
     "url": "https://10015.io/tools/photo-censor",
@@ -739,6 +732,13 @@
     "description": "Datos fake y herramientas para cualquier desarrollo",
     "url": "https://smalldev.tools/",
     "date": "04/11/2021",
+    "categoryName": "Tools"
+  },
+  {
+    "name": "Brandingbird",
+    "description": "Screenshot para llamar la atencion",
+    "url": "https://www.brandbird.app/",
+    "date": "22/11/2021",
     "categoryName": "Tools"
   },
   {
