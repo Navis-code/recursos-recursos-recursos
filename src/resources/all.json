@@ -546,6 +546,13 @@
     "categoryName": "Imagenes"
   },
   {
+    "name": "UI Avatars",
+    "description": "Iniciales para avatares mediante endpoint",
+    "url": "https://eu.ui-avatars.com/",
+    "date": "28/11/2021",
+    "categoryName": "Imagenes"
+  },
+  {
     "name": "1loc",
     "description": "Utilidades de JavaScript en 1 linea de codigo",
     "url": "https://1loc.dev/",
