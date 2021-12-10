@@ -567,6 +567,13 @@
     "categoryName": "JavaScript"
   },
   {
+    "name": "Does it mutate?",
+    "description": "Indica si un método de array modifica o no el original",
+    "url": "https://doesitmutate.xyz/",
+    "date": "09/12/2021",
+    "categoryName": "JavaScript"
+  },
+  {
     "name": "Griddy",
     "description": "Aprende fácilmente CSS Grid con ejemplos asombrosos",
     "url": "https://griddy.io/",
@@ -817,12 +824,5 @@
     "url": "https://www.youtube.com/user/bextlancom",
     "date": "27/07/2021",
     "categoryName": "Youtube"
-  },
-  {
-    "name": "Does it mutate 😱",
-    "description": "Indica si un método de array modifica o no el original",
-    "url": "https://doesitmutate.xyz/",
-    "date": "09/12/2021",
-    "categoryName": "JavaScript"
   }
 ]
