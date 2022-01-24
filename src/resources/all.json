@@ -336,6 +336,13 @@
     "categoryName": "Fuentes"
   },
   {
+    "name": "Fontjoy",
+    "description": "Emparejador de fuentes simple",
+    "url": "https://fontjoy.com/",
+    "date": "24/01/2022",
+    "categoryName": "Fuentes"
+  },
+  {
     "name": "Gitignore",
     "description": "Crea gitignore para tu proyecto",
     "url": "https://www.toptal.com/developers/gitignore",
