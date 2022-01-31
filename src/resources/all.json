@@ -357,6 +357,13 @@
     "categoryName": "Git"
   },
   {
+    "name": "Learngitbranching",
+    "description": "Aprende git y el concepto de ramas",
+    "url": "https://learngitbranching.js.org/?locale=es_ES",
+    "date": "31/01/2022",
+    "categoryName": "Git"
+  },
+  {
     "name": "Learning Git Branching",
     "description": "Aprende a trabajar con Git jugando",
     "url": "https://learngitbranching.js.org/",
