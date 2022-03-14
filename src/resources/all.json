@@ -189,6 +189,13 @@
     "categoryName": "Colores"
   },
   {
+    "name": "Color Generator",
+    "description": "Paleta y visualización web",
+    "url": "https://superdesigner.co/tools/color-generator",
+    "date": "14/03/2022",
+    "categoryName": "Colores"
+  },
+  {
     "name": "Sitechecker Pro",
     "description": "Verifica rápidamente la configuración de tu SEO y posibles warnings",
     "url": "https://sitechecker.pro/",
@@ -564,6 +571,13 @@
     "description": "Iniciales para avatares mediante endpoint",
     "url": "https://eu.ui-avatars.com/",
     "date": "28/11/2021",
+    "categoryName": "Imagenes"
+  },
+  {
+    "name": "Lorem Space",
+    "description": "Lorem ipsum de imagenes",
+    "url": "https://lorem.space/",
+    "date": "14/03/2022",
     "categoryName": "Imagenes"
   },
   {
