@@ -707,6 +707,13 @@
     "categoryName": "Perfil"
   },
   {
+    "name": "Frontend Practice",
+    "description": "Recrea web con indicaciones",
+    "url": "https://www.frontendpractice.com/",
+    "date": "22/07/2022",
+    "categoryName": "Practicar"
+  },
+  {
     "name": "iHateRegex",
     "description": "Expresiones regulares que se usan comunmente",
     "url": "https://ihateregex.io/",
