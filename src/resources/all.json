@@ -195,6 +195,13 @@
     "date": "06/09/2021",
     "categoryName": "Colores"
   },
+    {
+    "name": "Branition Colors",
+    "description": "Paletas de colores de marca",
+    "url": "https://branition.com/colors",
+    "date": "20/11/2022",
+    "categoryName": "Colores"
+  },
   {
     "name": "Color Generator",
     "description": "Paleta y visualización web",
